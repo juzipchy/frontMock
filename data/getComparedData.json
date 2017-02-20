@@ -1,0 +1,25 @@
+{
+	"status": "true",
+	"data": {
+		"resource|5-10": [{
+			"name": "死机重启",
+			"6.12.23|500-2000": 2400,
+			"6.12.23-attach": {
+				"hasDetail|1-2": true,
+				"excellent": 1900,
+				"good": 1600,
+				"bad": 400,
+				"url": "/mqsas/excp/dashboard/category.do"
+			},
+			"hasDetail|1-2": true,
+			"6.12.16|100-2000": 2400,
+			"6.12.16-attach": {
+				"hasDetail|1-2": false,
+				"excellent": 1900,
+				"good": 1600,
+				"bad": 400
+			}
+		}],
+		"index": ["6.12.23", "6.12.16"]
+	}
+}

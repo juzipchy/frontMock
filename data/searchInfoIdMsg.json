@@ -1,0 +1,34 @@
+{
+    "allErrorMsgList": [
+        {
+            "det": "测试内容iegq",
+            "dgt": "测试内容17vm",
+            "exType": "测试内容02dq",
+            "infoId": "测试内容61f8",
+            "isSolved": "测试内容u367",
+            "jiraId": "",
+            "listTopicUrl": [
+                "string1",
+                "string2",
+                "string3",
+                "string4",
+                "string5"
+            ],
+            "mainId": "测试内容6rt6",
+            "miuiVersion": "测试内容cdq7",
+            "model": "测试内容x341",
+            "owner": "测试内容t91d",
+            "process": "测试内容2yx5",
+            "replyDet": "测试内容ezm1",
+            "solveDet": "测试内容03xj",
+            "solveVersion": "测试内容6131",
+            "source": "测试内容hu4r",
+            "status": "测试内容gop7",
+            "sum": "测试内容l9sd",
+            "total": "测试内容6516",
+            "totalCount": "测试内容oojd",
+            "versionType": "测试内容477s"
+        }
+    ],
+    "status": "suc"
+}

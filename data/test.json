@@ -1,0 +1,9 @@
+{
+	"data|10": [
+		{
+			"value|1-100": 1,
+			"name|1-2": "@string('lower', 5)"
+		}
+	],
+	"status": "true"
+}

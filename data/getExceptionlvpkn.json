@@ -1,0 +1,18 @@
+{
+	"lDefault": "MI4C",
+	"vDefault": "6.12.23",
+	"pknDefault": "com.android.systemui",
+	"lvsDefaultCount": 3,
+	"lvsDefault": ["6.12.26", "6.12.23", "6.12.21"],
+	"pknlsDefaultCount": 6,
+	"pknlsDefault": ["MI3C", "MI3W", "MI4C", "MI4LTE", "MI4W", "MINOTELTE"],
+	"lvpknsDefaultCount": 13,
+	"lvpknsDefault": ["com.miui.whetstone", "com.miui.home", "com.android.providers.contacts", "com.xiaomi.shop", "com.android.settings", "com.miui.securitycenter", "com.xiaomi.simactivate.service", "com.lbe.security.miui", "com.android.quicksearchbox", "com.android.systemui", "com.miui.securitycore", "com.miui.calculator", "com.miui.weather2"],
+	"lsCount": 6,
+	"lsresult": ["MI3C", "MI3W", "MI4C", "MI4LTE", "MI4W", "MINOTELTE"],
+	"vsCount": 5,
+	"vsresult": ["6.12.26", "6.12.20", "6.12.22", "6.12.21", "6.12.23"],
+	"pknsCount": 56,
+	"pknsresult": ["com.miui.gallery", "com.xiaomi.simactivate.service", "com.android.quicksearchbox", "com.android.contacts", "com.xiaomi.metok", "com.miui.cleanmaster", "com.miui.whetstone", "com.miui.player", "com.miui.milivetalk", "com.xiaomi.account", "com.ximalaya.ting.android", "com.miui.guardprovider", "com.android.bluetooth", "com.android.providers.calendar", "com.xiaomi.pass", "com.mipay.wallet", "com.miui.yellowpage", "com.android.calendar", "com.miui.bugreport", "com.android.browser", "com.xiaomi.providers.appindex", "com.android.midrive", "com.xiaomi.shop", "com.miui.cloudservice", "com.miui.notes", "com.miui.securitycore", "com.duokan.reader", "com.android.mms", "com.xiaomi.finddevice", "com.miui.virtualsim", "com.miui.weather2", "com.miui.miuibbs", "com.xiaomi.market", "com.xiaomi.midrop", "com.android.updater", "com.android.providers.contacts", "com.android.settings", "com.miui.securitycenter", "com.xiaomi.channel", "com.lbe.security.miui", "com.xiaomi.ab", "com.xiaomi.o2o", "com.miui.calculator", "com.xiaomi.bluetooth", "com.android.systemui", "com.xiaomi.gamecenter", "com.miui.personalassistant", "com.miui.home", "com.sohu.inputmethod.sogou.xiaomi", "com.android.camera", "com.xiaomi.smarthome", "com.miui.cloudbackup", "com.miui.powerkeeper", "com.xiaomi.vip", "com.miui.systemAdSolution", "com.miui.video"],
+	"desc": "Succeeded to get getExceptionlvpkn l v pkn"
+}

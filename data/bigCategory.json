@@ -1,0 +1,23 @@
+{
+	"data": {
+		"indexs": ["all","test"],
+		"resources": [{
+			"name": "restart",
+			"all-attach": {
+				"nextUrl": "/mqsas/excp/dashboard/category.do?bigCategory=restart",
+				"hasDetail": "true"
+			},
+			"all": 3181,
+			"test": 1223
+		}, {
+			"name": "\\N",
+			"all-attach": {
+				"nextUrl": "/mqsas/excp/dashboard/category.do?bigCategory=\\N",
+				"hasDetail": "true"
+			},
+			"all": 1414,
+			"test": 1222
+		}]
+	},
+	"status": "true"
+}

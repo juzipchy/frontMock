@@ -1,0 +1,172 @@
+{
+	"list": [{
+		"count": "1",
+		"id": "1",
+		"ruleId": "1",
+		"det": "java.lang.NullPointerException: Attempt to invoke virtual method 'android.os.Handler android.app.FragmentHostCallback.getHandler()' on a null object reference##^^at android.app.FragmentManagerImpl.execPendingActions(FragmentManager.java:1512)##^^at android.app.FragmentManagerImpl.executePendingTransactions(FragmentManager.java:562)##^^at android.app.FragmentManagerImpl.popBackStackImmediate(FragmentManager.java:577)##^^at android.app.Activity.onBackPressed(Activity.java:2520)##^^at miui.app.Activity.onBackPressed(SourceFile:156)##^^at com.miui.calculator.common.BaseActivity.access$601(BaseActivity.java:17)##^^at com.miui.calculator.common.BaseActivity$3.run(BaseActivity.java:123)##^^at android.os.Handler.handleCallback(Handler.java:742)##^^at android.os.Handler.dispatchMessage(Handler.java:95)##^^at android.os.Looper.loop(Looper.java:154)##^^at android.app.ActivityThread.main(ActivityThread.java:5470)##^^at java.lang.reflect.Method.invoke(Native Method)##^^at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:736)##^^at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:626)##",
+		"dgt": "e3974c356abfc900060f05ede101f4da",
+		"ls": ["MI4C","fasdf","safass"],
+		"miCount": "1",
+		"pkns": ["com.miui.calculator"],
+		"sum": "java.lang.NullPointerException--Attempt to invoke virtual method 'android.os.Handler android.app.FragmentHostCallback.getHandler()' on a null object reference--",
+		"type": "",
+		"vs": ["6.12.23"]
+	}, {
+		"count": "1",
+		"id": "2",
+		"ruleId": "2",
+		"det": "java.lang.RuntimeException: Unable to destroy activity {com.miui.gallery/com.miui.gallery.activity.HomePageActivity}: java.lang.IllegalStateException: The specified child already has a parent. You must call removeView() on the child's parent first.##^^at android.app.ActivityThread.performDestroyActivity(ActivityThread.java:3852)##^^at android.app.ActivityThread.handleDestroyActivity(ActivityThread.java:3870)##^^at android.app.ActivityThread.access$1600(ActivityThread.java:153)##^^at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1423)##^^at android.os.Handler.dispatchMessage(Handler.java:102)##^^at android.os.Looper.loop(Looper.java:154)##^^at android.app.ActivityThread.main(ActivityThread.java:5470)##^^at java.lang.reflect.Method.invoke(Native Method)##^^at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:736)##^^at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:626)##Caused by: java.lang.IllegalStateException: The specified child already has a parent. You must call removeView() on the child's parent first.##^^at android.view.ViewGroup.addViewInner(ViewGroup.java:4310)##^^at android.view.ViewGroup.addView(ViewGroup.java:4146)##^^at android.view.ViewGroup.addView(ViewGroup.java:4087)##^^at android.view.ViewGroup.addView(ViewGroup.java:4060)##^^at com.miui.gallery.widget.PanelBar.replaceItem(PanelBar.java:64)##^^at com.miui.gallery.ui.HomePageTopBarController$PanelItemManager.removePanelItem(HomePageTopBarController.java:413)##^^at com.miui.gallery.ui.HomePageTopBarController.setDiscoveryMessage(HomePageTopBarController.java:110)##^^at com.miui.gallery.ui.HomePageFragment$HomePagePhotoLoaderCallback.onLoaderReset(HomePageFragment.java:171)##^^at android.app.LoaderManagerImpl$LoaderInfo.destroy(LoaderManager.java:364)##^^at android.app.LoaderManagerImpl.doDestroy(LoaderManager.java:834)##^^at android.app.Fragment.onDestroy(Fragment.java:1606)##^^at miui.app.Fragment.onDestroy(SourceFile:344)##^^at com.miui.gallery.ui.HomePageFragment.onDestroy(HomePageFragment.java:222)##^^at android.app.Fragment.performDestroy(Fragment.java:2433)##^^at android.app.FragmentManagerImpl.moveToState(FragmentManager.java:1098)##^^at android.app.FragmentManagerImpl.moveToState(FragmentManager.java:1148)##^^at android.app.FragmentManagerImpl.moveToState(FragmentManager.java:1130)##^^at android.app.FragmentManagerImpl.dispatchDestroy(FragmentManager.java:1983)##^^at android.app.FragmentController.dispatchDestroy(FragmentController.java:218)##^^at android.app.Activity.performDestroy(Activity.java:6473)##^^at android.app.Instrumentation.callActivityOnDestroy(Instrumentation.java:1143)##^^at android.app.ActivityThread.performDestroyActivity(ActivityThread.java:3839)##^^... 9 more##",
+		"dgt": "94b18be3214354a78d6ca60385cefd3c",
+		"ls": ["MI4C"],
+		"miCount": "1",
+		"pkns": ["com.miui.gallery"],
+		"sum": "java.lang.IllegalStateException--The specified child already has a parent. You must call removeView() on the child's parent first.--",
+		"type": "",
+		"vs": ["6.12.23"]
+	}, {
+		"count": "1",
+		"id": "3",
+		"ruleId": "3",
+		"det": "java.lang.RuntimeException: Package manager has died##^^at android.app.ApplicationPackageManager.getInstalledApplications(ApplicationPackageManager.java:618)##^^at com.lbe.security.service.provider.WakePathDatabaseUtil.loadDefaultPermission(WakePathDatabaseUtil.java:321)##^^at com.lbe.security.service.provider.WakePathDatabaseUtil.getDefaultAutoStartApps(WakePathDatabaseUtil.java:304)##^^at com.miui.authmanager.wakepath.WakePathManager$2.run(WakePathManager.java:192)##^^at java.lang.Thread.run(Thread.java:818)##Caused by: android.os.DeadObjectException##^^at android.os.BinderProxy.transactNative(Native Method)##^^at android.os.BinderProxy.transact(Binder.java:506)##^^at android.content.pm.IPackageManager$Stub$Proxy.getInstalledApplications(IPackageManager.java:3266)##^^at android.app.ApplicationPackageManager.getInstalledApplications(ApplicationPackageManager.java:615)##^^... 4 more##",
+		"dgt": "469406824b169ee1d395cb5d638e0a6c",
+		"ls": ["MI4C"],
+		"miCount": "1",
+		"pkns": ["com.lbe.security.miui"],
+		"sum": "android.os.DeadObjectException--Package manager has died--",
+		"type": "",
+		"vs": ["6.12.23"]
+	}, {
+		"count": "1",
+		"det": "java.lang.NullPointerException: Attempt to invoke interface method 'boolean com.android.internal.textservice.ITextServicesManager.isSpellCheckerEnabled()' on a null object reference##^^at android.view.textservice.TextServicesManager.isSpellCheckerEnabled(TextServicesManager.java:279)##^^at android.widget.SpellChecker.resetSession(SpellChecker.java:122)##^^at android.widget.SpellChecker.setLocale(SpellChecker.java:148)##^^at android.widget.SpellChecker.<init>(SpellChecker.java:112)##^^at android.widget.Editor.updateSpellCheckSpans(Editor.java:631)##^^at android.widget.Editor.onAttachedToWindow(Editor.java:341)##^^at android.widget.TextView.onAttachedToWindow(TextView.java:5272)##^^at android.view.View.dispatchAttachedToWindow(View.java:14538)##^^at android.view.ViewGroup.dispatchAttachedToWindow(ViewGroup.java:2844)##^^at android.view.ViewGroup.dispatchAttachedToWindow(ViewGroup.java:2844)##^^at android.view.ViewGroup.dispatchAttachedToWindow(ViewGroup.java:2844)##^^at android.view.ViewGroup.dispatchAttachedToWindow(ViewGroup.java:2844)##^^at android.view.ViewGroup.dispatchAttachedToWindow(ViewGroup.java:2844)##^^at android.view.ViewGroup.dispatchAttachedToWindow(ViewGroup.java:2844)##^^at android.view.ViewGroup.dispatchAttachedToWindow(ViewGroup.java:2844)##^^at android.view.ViewGroup.dispatchAttachedToWindow(ViewGroup.java:2844)##^^at android.view.ViewGroup.dispatchAttachedToWindow(ViewGroup.java:2844)##^^at android.view.ViewGroup.dispatchAttachedToWindow(ViewGroup.java:2844)##^^at android.view.ViewGroup.dispatchAttachedToWindow(ViewGroup.java:2844)##^^at android.view.ViewGroup.dispatchAttachedToWindow(ViewGroup.java:2844)##^^at android.view.ViewRootImpl.performTraversals(ViewRootImpl.java:1391)##^^at android.view.ViewRootImpl.doTraversal(ViewRootImpl.java:1134)##^^at android.view.ViewRootImpl$TraversalRunnable.run(ViewRootImpl.java:6050)##^^at android.view.Choreographer$CallbackRecord.run(Choreographer.java:860)##^^at android.view.Choreographer.doCallbacks(Choreographer.java:672)##^^at android.view.Choreographer.doFrame(Choreographer.java:608)##^^at android.view.Choreographer$FrameDisplayEventReceiver.run(Choreographer.java:846)##^^at android.os.Handler.handleCallback(Handler.java:742)##^^at android.os.Handler.dispatchMessage(Handler.java:95)##^^at android.os.Looper.loop(Looper.java:154)##^^at android.app.ActivityThread.main(ActivityThread.java:5470)##^^at java.lang.reflect.Method.invoke(Native Method)##^^at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:736)##^^at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:626)##",
+		"dgt": "466a6bfb34a72cefdce1cf2dc8421264",
+		"ls": ["MI4C"],
+		"miCount": "1",
+		"pkns": ["com.miui.home"],
+		"sum": "java.lang.NullPointerException--Attempt to invoke interface method 'boolean com.android.internal.textservice.ITextServicesManager.isSpellCheckerEnabled()' on a null object reference--",
+		"type": "",
+		"vs": ["6.12.23"]
+	}, {
+		"count": "1",
+		"det": "java.lang.RuntimeException: Package manager has died##^^at android.app.ApplicationPackageManager.getPackageInfo(ApplicationPackageManager.java:134)##^^at com.miui.networkassistant.utils.PackageUtil.getAppVersion(Unknown Source)##^^at com.miui.networkassistant.service.tm.AppMonitor.buildAppInfo(Unknown Source)##^^at com.miui.networkassistant.service.tm.AppMonitor.fillNetworkAccessedApps(Unknown Source)##^^at com.miui.networkassistant.service.tm.AppMonitor.access$200(Unknown Source)##^^at com.miui.networkassistant.service.tm.AppMonitor$1.run(Unknown Source)##^^at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)##^^at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)##^^at java.lang.Thread.run(Thread.java:818)##Caused by: android.os.DeadObjectException##^^at android.os.BinderProxy.transactNative(Native Method)##^^at android.os.BinderProxy.transact(Binder.java:506)##^^at android.content.pm.IPackageManager$Stub$Proxy.getPackageInfo(IPackageManager.java:2176)##^^at android.app.ApplicationPackageManager.getPackageInfo(ApplicationPackageManager.java:129)##^^... 8 more##",
+		"dgt": "f073b43eb3c34d6852947d7e09d820af",
+		"ls": ["MI4C"],
+		"miCount": "1",
+		"pkns": ["com.miui.securitycenter"],
+		"sum": "android.os.DeadObjectException--Package manager has died--",
+		"type": "",
+		"vs": ["6.12.23"]
+	}, {
+		"count": "1",
+		"det": "java.lang.RuntimeException: An error occurred while executing doInBackground()##^^at android.os.AsyncTask$3.done(AsyncTask.java:309)##^^at java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:354)##^^at java.util.concurrent.FutureTask.setException(FutureTask.java:223)##^^at java.util.concurrent.FutureTask.run(FutureTask.java:242)##^^at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:234)##^^at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)##^^at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)##^^at java.lang.Thread.run(Thread.java:818)##Caused by: java.lang.SecurityException: getLine1NumberForDisplay: Neither user 1001 nor current process has android.permission.READ_SMS.##^^at android.os.Parcel.readException(Parcel.java:1620)##^^at android.os.Parcel.readException(Parcel.java:1573)##^^at com.android.internal.telephony.ISub$Stub$Proxy.getAllSubInfoList(ISub.java:412)##^^at android.telephony.SubscriptionManager.getAllSubscriptionInfoList(SubscriptionManager.java:561)##^^at miui.telephony.SubscriptionManagerEx.getAllSubscriptionInfoListInternal(SubscriptionManagerEx.java:177)##^^at miui.telephony.SubscriptionManager.ensureSubscriptionInfoCache(SubscriptionManager.java:146)##^^at miui.telephony.SubscriptionManager.access$000(SubscriptionManager.java:21)##^^at miui.telephony.SubscriptionManager$1.doInBackground(SubscriptionManager.java:181)##^^at miui.telephony.SubscriptionManager$1.doInBackground(SubscriptionManager.java:178)##^^at android.os.AsyncTask$2.call(AsyncTask.java:295)##^^at java.util.concurrent.FutureTask.run(FutureTask.java:237)##^^... 4 more##",
+		"dgt": "93718ffbb109ce511978d70f8f8b4d52",
+		"ls": ["MI4C"],
+		"miCount": "1",
+		"pkns": ["com.miui.securitycenter"],
+		"sum": "java.lang.SecurityException--getLine1NumberForDisplay: Neither user 1001 nor current process has android.permission.READ_SMS.--",
+		"type": "",
+		"vs": ["6.12.23"]
+	}, {
+		"count": "210",
+		"det": "java.lang.NullPointerException: Attempt to invoke virtual method 'int android.graphics.drawable.Drawable.getIntrinsicWidth()' on a null object reference##^^at com.android.systemui.statusbar.KeyguardNotificationHelper.drawableToByte(KeyguardNotificationHelper.java:101)##^^at com.android.systemui.statusbar.KeyguardNotificationHelper.buildValues(KeyguardNotificationHelper.java:85)##^^at com.android.systemui.statusbar.KeyguardNotificationHelper.update(KeyguardNotificationHelper.java:36)##^^at com.android.systemui.statusbar.phone.PhoneStatusBar.addNotification(PhoneStatusBar.java:1825)##^^at com.android.systemui.statusbar.CommandQueue$H.handleMessage(CommandQueue.java:438)##^^at android.os.Handler.dispatchMessage(Handler.java:102)##^^at android.os.Looper.loop(Looper.java:154)##^^at android.app.ActivityThread.main(ActivityThread.java:5470)##^^at java.lang.reflect.Method.invoke(Native Method)##^^at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:736)##^^at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:626)##^^at de.robv.android.xposed.XposedBridge.main(XposedBridge.java:102)##",
+		"dgt": "6fb382b5d45cfc0ddad088133b7c16d2",
+		"ls": ["MI4C"],
+		"miCount": "1",
+		"pkns": ["com.android.systemui"],
+		"sum": "java.lang.NullPointerException--Attempt to invoke virtual method 'int android.graphics.drawable.Drawable.getIntrinsicWidth()' on a null object reference--",
+		"type": "",
+		"vs": ["6.12.23"]
+	}, {
+		"count": "1",
+		"det": "java.lang.ClassCastException: java.lang.Boolean cannot be cast to java.lang.Integer##^^at android.app.SharedPreferencesImpl.getInt(SharedPreferencesImpl.java:242)##^^at com.miui.weather2.tools.ToolUtils.getUserUseWindUnit(ToolUtils.java:917)##^^at com.miui.weather2.view.onOnePage.CurrentConditions.setData(CurrentConditions.java:197)##^^at com.miui.weather2.ActivityWeatherMain.setViewWeatherData(ActivityWeatherMain.java:860)##^^at com.miui.weather2.ActivityWeatherMain.access$2900(ActivityWeatherMain.java:63)##^^at com.miui.weather2.ActivityWeatherMain$Listeners.onCityDataRead(ActivityWeatherMain.java:1097)##^^at com.miui.weather2.model.CitySession$GetCityListTask.onPostExecute(CitySession.java:44)##^^at com.miui.weather2.model.CitySession$GetCityListTask.onPostExecute(CitySession.java:30)##^^at android.os.AsyncTask.finish(AsyncTask.java:651)##^^at android.os.AsyncTask.access$500(AsyncTask.java:180)##^^at android.os.AsyncTask$InternalHandler.handleMessage(AsyncTask.java:668)##^^at android.os.Handler.dispatchMessage(Handler.java:102)##^^at android.os.Looper.loop(Looper.java:154)##^^at android.app.ActivityThread.main(ActivityThread.java:5470)##^^at java.lang.reflect.Method.invoke(Native Method)##^^at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:736)##^^at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:626)##",
+		"dgt": "2eecfea7c24e2fc004c54e486eede590",
+		"ls": ["MI4C"],
+		"miCount": "1",
+		"pkns": ["com.miui.weather2"],
+		"sum": "java.lang.ClassCastException--java.lang.Boolean cannot be cast to java.lang.Integer--",
+		"type": "",
+		"vs": ["6.12.23"]
+	}, {
+		"count": "1",
+		"det": "java.lang.NullPointerException: Attempt to invoke interface method 'java.util.Iterator java.util.List.iterator()' on a null object reference##^^at android.app.ApplicationPackageManager.getUserIfProfile(ApplicationPackageManager.java:2151)##^^at android.app.ApplicationPackageManager.getUserBadgeForDensity(ApplicationPackageManager.java:997)##^^at android.app.Notification$Builder.getProfileBadgeDrawable(Notification.java:2886)##^^at android.app.Notification$Builder.hasThreeLines(Notification.java:3101)##^^at android.app.Notification$Builder.build(Notification.java:3655)##^^at com.miui.securitycenter.service.NotificationService.oF(Unknown Source)##^^at com.miui.securitycenter.service.NotificationService.b(Unknown Source)##^^at com.miui.securitycenter.service.f.run(Unknown Source)##^^at android.os.Handler.handleCallback(Handler.java:742)##^^at android.os.Handler.dispatchMessage(Handler.java:95)##^^at android.os.Looper.loop(Looper.java:154)##^^at android.app.ActivityThread.main(ActivityThread.java:5470)##^^at java.lang.reflect.Method.invoke(Native Method)##^^at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:736)##^^at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:626)##",
+		"dgt": "5aed26ce7d23f6332325bbf4cd011837",
+		"ls": ["MI4C"],
+		"miCount": "1",
+		"pkns": ["com.miui.securitycenter"],
+		"sum": "java.lang.NullPointerException--Attempt to invoke interface method 'java.util.Iterator java.util.List.iterator()' on a null object reference--",
+		"type": "",
+		"vs": ["6.12.23"]
+	}, {
+		"count": "1",
+		"det": "java.lang.RuntimeException: Failure from system##^^at android.app.ContextImpl.startServiceCommon(ContextImpl.java:1270)##^^at android.app.ContextImpl.startService(ContextImpl.java:1236)##^^at android.content.ContextWrapper.startService(ContextWrapper.java:591)##^^at miui.core.SdkManager$1.run(SourceFile:186)##^^at android.os.Handler.handleCallback(Handler.java:742)##^^at android.os.Handler.dispatchMessage(Handler.java:95)##^^at android.os.Looper.loop(Looper.java:154)##^^at android.app.ActivityThread.main(ActivityThread.java:5470)##^^at java.lang.reflect.Method.invoke(Native Method)##^^at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:736)##^^at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:626)##Caused by: android.os.DeadObjectException##^^at android.os.BinderProxy.transactNative(Native Method)##^^at android.os.BinderProxy.transact(Binder.java:506)##^^at android.app.ActivityManagerProxy.startService(ActivityManagerNative.java:3704)##^^at android.app.ContextImpl.startServiceCommon(ContextImpl.java:1254)##^^... 10 more##",
+		"dgt": "4a5576dc91942180e48dfb94c7b9baf0",
+		"ls": ["MI4C"],
+		"miCount": "1",
+		"pkns": ["com.android.providers.contacts"],
+		"sum": "android.os.DeadObjectException--Failure from system--",
+		"type": "",
+		"vs": ["6.12.23"]
+	}, {
+		"count": "1",
+		"det": "java.lang.RuntimeException: An error occurred while executing doInBackground()##^^at android.os.AsyncTask$3.done(AsyncTask.java:309)##^^at java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:354)##^^at java.util.concurrent.FutureTask.setException(FutureTask.java:223)##^^at java.util.concurrent.FutureTask.run(FutureTask.java:242)##^^at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:234)##^^at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)##^^at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)##^^at java.lang.Thread.run(Thread.java:818)##Caused by: java.lang.SecurityException: getAllSubInfoList: Neither user 10072 nor current process has android.permission.READ_PHONE_STATE.##^^at android.os.Parcel.readException(Parcel.java:1620)##^^at android.os.Parcel.readException(Parcel.java:1573)##^^at com.android.internal.telephony.ISub$Stub$Proxy.getAllSubInfoList(ISub.java:412)##^^at android.telephony.SubscriptionManager.getAllSubscriptionInfoList(SubscriptionManager.java:561)##^^at miui.telephony.SubscriptionManagerEx.getAllSubscriptionInfoListInternal(SubscriptionManagerEx.java:177)##^^at miui.telephony.SubscriptionManager.ensureSubscriptionInfoCache(SubscriptionManager.java:146)##^^at miui.telephony.SubscriptionManager.access$000(SubscriptionManager.java:21)##^^at miui.telephony.SubscriptionManager$1.doInBackground(SubscriptionManager.java:181)##^^at miui.telephony.SubscriptionManager$1.doInBackground(SubscriptionManager.java:178)##^^at android.os.AsyncTask$2.call(AsyncTask.java:295)##^^at java.util.concurrent.FutureTask.run(FutureTask.java:237)##^^... 4 more##",
+		"dgt": "9bf3e6e19deaaaa14c5f84cd5fae9db2",
+		"ls": ["MI4C"],
+		"miCount": "1",
+		"pkns": ["com.xiaomi.simactivate.service"],
+		"sum": "java.lang.SecurityException--getAllSubInfoList: Neither user 10072 nor current process has android.permission.READ_PHONE_STATE.--",
+		"type": "",
+		"vs": ["6.12.23"]
+	}, {
+		"count": "1",
+		"det": "java.lang.NullPointerException: Attempt to invoke interface method 'java.util.Iterator java.util.List.iterator()' on a null object reference##^^at com.miui.xspace.service.XSpaceService.getXSpaceProfileInfo(XSpaceService.java:110)##^^at com.miui.xspace.service.XSpaceService.dispatchXSpaceUserError(XSpaceService.java:168)##^^at com.miui.xspace.service.XSpaceService.checkXSpace(XSpaceService.java:155)##^^at com.miui.xspace.service.XSpaceService.enableAppAsync(XSpaceService.java:173)##^^at com.miui.xspace.service.XSpaceService.access$300(XSpaceService.java:44)##^^at com.miui.xspace.service.XSpaceService$1$1.onSuccess(XSpaceService.java:83)##^^at com.miui.xspace.task.InitXSpaceAppsTask.start(InitXSpaceAppsTask.java:67)##^^at com.miui.xspace.service.XSpaceService$1.run(XSpaceService.java:78)##^^at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)##^^at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)##^^at java.lang.Thread.run(Thread.java:818)##",
+		"dgt": "e1f5dfe318ca48f5e51471435b574e22",
+		"ls": ["MI4C"],
+		"miCount": "1",
+		"pkns": ["com.miui.securitycore"],
+		"sum": "java.lang.NullPointerException--Attempt to invoke interface method 'java.util.Iterator java.util.List.iterator()' on a null object reference--",
+		"type": "",
+		"vs": ["6.12.23"]
+	}, {
+		"count": "1",
+		"det": "java.lang.RuntimeException: Package manager has died##^^at android.app.ApplicationPackageManager.queryIntentActivitiesAsUser(ApplicationPackageManager.java:657)##^^at android.app.ApplicationPackageManager.queryIntentActivities(ApplicationPackageManager.java:643)##^^at com.android.quicksearchbox.applications.ApplicationsProvider.updateApplicationsList(ApplicationsProvider.java:455)##^^at com.android.quicksearchbox.applications.ApplicationsProvider.access$200(ApplicationsProvider.java:62)##^^at com.android.quicksearchbox.applications.ApplicationsProvider$UpdateHandler.handleMessage(ApplicationsProvider.java:183)##^^at android.os.Handler.dispatchMessage(Handler.java:102)##^^at android.os.Looper.loop(Looper.java:154)##^^at android.os.HandlerThread.run(HandlerThread.java:61)##Caused by: android.os.DeadObjectException##^^at android.os.BinderProxy.transactNative(Native Method)##^^at android.os.BinderProxy.transact(Binder.java:506)##^^at android.content.pm.IPackageManager$Stub$Proxy.queryIntentActivities(IPackageManager.java:3031)##^^at android.app.ApplicationPackageManager.queryIntentActivitiesAsUser(ApplicationPackageManager.java:651)##^^... 7 more##",
+		"dgt": "08cf4c6f613d5888a41d8b2eb43e13b5",
+		"ls": ["MI4C"],
+		"miCount": "1",
+		"pkns": ["com.android.quicksearchbox"],
+		"sum": "android.os.DeadObjectException--Package manager has died--",
+		"type": "",
+		"vs": ["6.12.23"]
+	}, {
+		"count": "1",
+		"det": "java.lang.ClassCastException: java.lang.Boolean cannot be cast to java.lang.Integer##^^at android.app.SharedPreferencesImpl.getInt(SharedPreferencesImpl.java:242)##^^at com.miui.weather2.tools.ToolUtils.getUserUseWindUnit(ToolUtils.java:917)##^^at com.miui.weather2.cloudbackup.WeatherCloudBackupImpl.backupConfig(WeatherCloudBackupImpl.java:55)##^^at com.miui.weather2.cloudbackup.WeatherCloudBackupImpl.onBackupSettings(WeatherCloudBackupImpl.java:33)##^^at com.xiaomi.settingsdk.backup.CloudBackupServiceBase.backupSettings(CloudBackupServiceBase.java:116)##^^at com.xiaomi.settingsdk.backup.CloudBackupServiceBase.onHandleIntent(CloudBackupServiceBase.java:62)##^^at android.app.IntentService$ServiceHandler.handleMessage(IntentService.java:66)##^^at android.os.Handler.dispatchMessage(Handler.java:102)##^^at android.os.Looper.loop(Looper.java:154)##^^at android.os.HandlerThread.run(HandlerThread.java:61)##",
+		"dgt": "83a91c3d239bb69f5d09d0191689a7c7",
+		"ls": ["MI4C"],
+		"miCount": "1",
+		"pkns": ["com.miui.weather2"],
+		"sum": "java.lang.ClassCastException--java.lang.Boolean cannot be cast to java.lang.Integer--",
+		"type": "",
+		"vs": ["6.12.23"]
+	}, {
+		"count": "1",
+		"det": "java.lang.NullPointerException: Attempt to get length of null array##^^at com.miui.whetstone.memanalystics.MemProcessManager.ensureAllSystemPss(Unknown Source)##^^at com.miui.whetstone.memanalystics.MemProcessManager.access$100(Unknown Source)##^^at com.miui.whetstone.memanalystics.MemProcessManager$BgHandler.handleMessage(Unknown Source)##^^at android.os.Handler.dispatchMessage(Handler.java:102)##^^at android.os.Looper.loop(Looper.java:154)##^^at android.os.HandlerThread.run(HandlerThread.java:61)##",
+		"dgt": "a68f7c3427a9439f2dbf113705656060",
+		"ls": ["MI4C"],
+		"miCount": "1",
+		"pkns": ["com.miui.whetstone"],
+		"sum": "java.lang.NullPointerException--Attempt to get length of null array--",
+		"type": "",
+		"vs": ["6.12.23"]
+	}, {
+		"count": "1",
+		"det": "java.lang.RuntimeException: Package manager has died##^^at android.app.ApplicationPackageManager.hasSystemFeature(ApplicationPackageManager.java:413)##^^at miui.app.ToggleManager.filterToggle(ToggleManager.java:715)##^^at miui.app.ToggleManager.validateTogglePage(ToggleManager.java:682)##^^at miui.app.ToggleManager.validateToggleOrder(ToggleManager.java:623)##^^at miui.app.ToggleManager.getUserSelectedToggleOrder(ToggleManager.java:530)##^^at miui.app.ToggleManager.getUserSelectedToggleOrder(ToggleManager.java:505)##^^at com.android.systemui.statusbar.phone.StatusBarToggles.OnToggleOrderChanged(StatusBarToggles.java:171)##^^at com.android.systemui.statusbar.phone.TogglesContainer.onAttachedToWindow(TogglesContainer.java:80)##^^at com.android.systemui.statusbar.phone.StatusBarToggles.onAttachedToWindow(StatusBarToggles.java:224)##^^at android.view.View.dispatchAttachedToWindow(View.java:14538)##^^at android.view.ViewGroup.dispatchAttachedToWindow(ViewGroup.java:2837)##^^at android.view.ViewGroup.dispatchAttachedToWindow(ViewGroup.java:2844)##^^at android.view.ViewGroup.dispatchAttachedToWindow(ViewGroup.java:2844)##^^at android.view.ViewGroup.dispatchAttachedToWindow(ViewGroup.java:2844)##^^at android.view.ViewRootImpl.performTraversals(ViewRootImpl.java:1391)##^^at android.view.ViewRootImpl.doTraversal(ViewRootImpl.java:1134)##^^at android.view.ViewRootImpl$TraversalRunnable.run(ViewRootImpl.java:6050)##^^at android.view.Choreographer$CallbackRecord.run(Choreographer.java:860)##^^at android.view.Choreographer.doCallbacks(Choreographer.java:672)##^^at android.view.Choreographer.doFrame(Choreographer.java:608)##^^at android.view.Choreographer$FrameDisplayEventReceiver.run(Choreographer.java:846)##^^at android.os.Handler.handleCallback(Handler.java:742)##^^at android.os.Handler.dispatchMessage(Handler.java:95)##^^at android.os.Looper.loop(Looper.java:154)##^^at android.app.ActivityThread.main(ActivityThread.java:5470)##^^at java.lang.reflect.Method.invoke(Native Method)##^^at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:736)##^^at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:626)##Caused by: android.os.DeadObjectException##^^at android.os.BinderProxy.transactNative(Native Method)##^^at android.os.BinderProxy.transact(Binder.java:506)##^^at android.content.pm.IPackageManager$Stub$Proxy.hasSystemFeature(IPackageManager.java:4367)##^^at android.app.ApplicationPackageManager.hasSystemFeature(ApplicationPackageManager.java:411)##^^... 27 more##",
+		"dgt": "6638d3c5dfb667c8f176a272166dd76c",
+		"ls": ["MI4C"],
+		"miCount": "1",
+		"pkns": ["com.android.systemui"],
+		"sum": "android.os.DeadObjectException--Package manager has died--",
+		"type": "",
+		"vs": ["6.12.23"]
+	}],
+	"resultCount": 16,
+	"status": "succ",
+	"desc": "Succeeded to queryList"
+}

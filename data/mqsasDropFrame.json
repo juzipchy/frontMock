@@ -1,0 +1,26 @@
+{
+	"dropFrameRatios": {
+		"bubei.tingshu|0-100.0-1": 1,
+		"com.xiaomi.o2o|0-100.0-1": 1,
+		"com.MobileTicket|0-100.0-1": 1,
+		"com.autonavi.minimap|0-100.0-1": 1,
+		"com.iflytek.inputmethod|0-100.0-1": 1,
+		"com.kugou.android|0-100.0-1": 1,
+		"com.duowan.kiwi|0-100.0-1": 1,
+		"com.sohu.inputmethod.sogou|0-100.0-1": 1,
+		"com.sinovatech.unicom.ui|0-100.0-1": 1,
+		"com.xiaomi.jr|0-100.0-1": 1,
+		"com.chinamworld.main|0-100.0-1": 1,
+		"com.cubic.autohome|0-100.0-1": 1,
+		"com.pingan.papd|0-100.0-1": 1,
+		"com.sohu.inputmethod.sogou.xiaomi|0-100.0-1": 1,
+		"com.tencent.qqmusic|0-100.0-1": 1,
+		"com.duowan.mobile|0-100.0-1": 1,
+		"com.baidu.searchbox|0-100.0-1": 1,
+		"com.sankuai.meituan|0-100.0-1": 1,
+		"com.moji.mjweather|0-100.0-1": 1,
+		"com.hexin.plat.android|0-100.0-1": 1
+	},
+	"status": "succ",
+	"desc": "Succeeded to get dropFrame ratio"
+}
