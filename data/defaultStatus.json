@@ -1,0 +1,28 @@
+{
+  "data": {
+    "model": {   
+      "RedmiNote4(nikel)": 0
+    },
+    "sysMap": {      
+      "reclaim": 0,
+      "unknown": 0
+    },
+    "appMap": {     
+      "org.zywx.wbpalmstar.widgetone.uex11457435": 23,
+      "qsbk.app": 20,
+      "ru.ulmart.mobapp": 11,
+      "os.xiehou360.im.mei": 4,
+      "pl.allegro": 2
+    },
+    "windowMap": { 
+      "org.zywx.wbpalmstar.widgetone.uex11457435/org.zywx.wbpalmstar.engine.EBrowserActivity": 23
+    },
+    "causeMap": { 
+      "Slow bitmap uploads": 23
+    },
+    "version": {  
+      "7.1.20": 0
+    }
+  },
+  "status": "true"
+}

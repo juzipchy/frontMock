@@ -1,10 +1,10 @@
 {
-	"list": [{
-		"count": "20",
+	"list|20": [{
+		"count|1-200": 10,
 		"det": "sd32a12351234",
 		"dgt": "sfdfw 2302sdfqw3",
 		"ext": {},
-		"miCount": "50",
+		"miCount|1-200": 10,
 		"searchKey": "seee_32_sew",
 		"summary": "dwt ewes dwd derr",
 		"type": "sse"

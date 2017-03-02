@@ -1,0 +1,451 @@
+{
+	"status": "true",
+	"data": {
+		"MI2": {
+			"incrPkn": {
+				"difference": "0.07",
+				"updatedCount": "112",
+				"largeRate": "0.96",
+				"preCount": "122",
+				"smallRate": "0.89"
+			},
+			"totalPkn": {}
+		},
+		"MI3": {
+			"incrPkn": {
+				"difference": "0.14",
+				"updatedCount": "22",
+				"largeRate": "0.36",
+				"preCount": "0",
+				"smallRate": "0.22"
+			},
+			"totalPkn": {}
+		},
+		"mi18": {
+			"incrPkn": {
+				"difference": "0.14",
+				"updatedCount": "123",
+				"largeRate": "0.36",
+				"preCount": "22",
+				"smallRate": "0.22"
+			},
+			"totalPkn": {}
+		},
+		"MI10": {
+			"incrPkn": {
+				"difference": "0.14",
+				"updatedCount": "123",
+				"largeRate": "0.36",
+				"preCount": "22",
+				"smallRate": "0.22"
+			},
+			"totalPkn": {}
+		},
+		"MI12": {
+			"incrPkn": {
+				"difference": "0.14",
+				"updatedCount": "123",
+				"largeRate": "0.36",
+				"preCount": "22",
+				"smallRate": "0.22"
+			},
+			"totalPkn": {}
+		},
+		"MI11": {
+			"incrPkn": {
+				"difference": "0.14",
+				"updatedCount": "123",
+				"largeRate": "0.36",
+				"preCount": "22",
+				"smallRate": "0.22"
+			},
+			"totalPkn": {}
+		},
+		"MI14": {
+			"incrPkn": {
+				"difference": "0.14",
+				"updatedCount": "123",
+				"largeRate": "0.36",
+				"preCount": "22",
+				"smallRate": "0.22"
+			},
+			"totalPkn": {}
+		},
+		"mi19": {
+			"incrPkn": {
+				"difference": "0.14",
+				"updatedCount": "123",
+				"largeRate": "0.36",
+				"preCount": "22",
+				"smallRate": "0.22"
+			},
+			"totalPkn": {}
+		},
+		"MI13": {
+			"incrPkn": {
+				"difference": "0.14",
+				"updatedCount": "123",
+				"largeRate": "0.36",
+				"preCount": "22",
+				"smallRate": "0.22"
+			},
+			"totalPkn": {}
+		},
+		"MI4S": {
+			"incrPkn": {
+				"difference": "0.03",
+				"updatedCount": "234",
+				"largeRate": "0.94",
+				"preCount": "244",
+				"smallRate": "0.91"
+			},
+			"totalPkn": {
+				"difference": "0.16",
+				"updatedCount": "240",
+				"largeRate": "0.48",
+				"preCount": "245",
+				"smallRate": "0.32"
+			}
+		},
+		"MI9": {
+			"incrPkn": {
+				"difference": "0.14",
+				"updatedCount": "22",
+				"largeRate": "0.36",
+				"preCount": "22",
+				"smallRate": "0.22"
+			},
+			"totalPkn": {}
+		},
+		"MI17": {
+			"incrPkn": {
+				"difference": "0.14",
+				"updatedCount": "123",
+				"largeRate": "0.36",
+				"preCount": "22",
+				"smallRate": "0.22"
+			},
+			"totalPkn": {}
+		},
+		"MI15": {
+			"incrPkn": {
+				"difference": "0.14",
+				"updatedCount": "123",
+				"largeRate": "0.36",
+				"preCount": "22",
+				"smallRate": "0.22"
+			},
+			"totalPkn": {}
+		},
+		"MI16": {
+			"incrPkn": {
+				"difference": "0.14",
+				"updatedCount": "123",
+				"largeRate": "0.36",
+				"preCount": "22",
+				"smallRate": "0.22"
+			},
+			"totalPkn": {}
+		},
+		"MI123": {
+			"incrPkn": {
+				"difference": "0.14",
+				"updatedCount": "123",
+				"largeRate": "0.36",
+				"preCount": "22",
+				"smallRate": "0.22"
+			},
+			"totalPkn": {}
+		},
+		"MI1sff6": {
+			"incrPkn": {
+				"difference": "0.14",
+				"updatedCount": "123",
+				"largeRate": "0.36",
+				"preCount": "22",
+				"smallRate": "0.22"
+			},
+			"totalPkn": {}
+		},
+		"MI1sdff6": {
+			"incrPkn": {
+				"difference": "0.14",
+				"updatedCount": "123",
+				"largeRate": "0.36",
+				"preCount": "22",
+				"smallRate": "0.22"
+			},
+			"totalPkn": {}
+		},
+		"MIasdfasdf16": {
+			"incrPkn": {
+				"difference": "0.14",
+				"updatedCount": "123",
+				"largeRate": "0.36",
+				"preCount": "22",
+				"smallRate": "0.22"
+			},
+			"totalPkn": {}
+		},
+		"MI16fghf": {
+			"incrPkn": {
+				"difference": "0.14",
+				"updatedCount": "123",
+				"largeRate": "0.36",
+				"preCount": "22",
+				"smallRate": "0.22"
+			},
+			"totalPkn": {}
+		},
+		"MIaaa16": {
+			"incrPkn": {
+				"difference": "0.14",
+				"updatedCount": "123",
+				"largeRate": "0.36",
+				"preCount": "22",
+				"smallRate": "0.22"
+			},
+			"totalPkn": {}
+		},
+		"MI23416": {
+			"incrPkn": {
+				"difference": "0.14",
+				"updatedCount": "123",
+				"largeRate": "0.36",
+				"preCount": "22",
+				"smallRate": "0.22"
+			},
+			"totalPkn": {}
+		},
+		"MI1pl6": {
+			"incrPkn": {
+				"difference": "0.14",
+				"updatedCount": "123",
+				"largeRate": "0.36",
+				"preCount": "22",
+				"smallRate": "0.22"
+			},
+			"totalPkn": {}
+		},
+		"MI123d16": {
+			"incrPkn": {
+				"difference": "0.14",
+				"updatedCount": "123",
+				"largeRate": "0.36",
+				"preCount": "22",
+				"smallRate": "0.22"
+			},
+			"totalPkn": {}
+		},
+		"MI1656": {
+			"incrPkn": {
+				"difference": "0.14",
+				"updatedCount": "123",
+				"largeRate": "0.36",
+				"preCount": "22",
+				"smallRate": "0.22"
+			},
+			"totalPkn": {}
+		},
+		"MI1fsdac6": {
+			"incrPkn": {
+				"difference": "0.14",
+				"updatedCount": "123",
+				"largeRate": "0.36",
+				"preCount": "22",
+				"smallRate": "0.22"
+			},
+			"totalPkn": {}
+		},
+		"MIfg16": {
+			"incrPkn": {
+				"difference": "0.14",
+				"updatedCount": "123",
+				"largeRate": "0.36",
+				"preCount": "22",
+				"smallRate": "0.22"
+			},
+			"totalPkn": {}
+		},
+		"MI1d6": {
+			"incrPkn": {
+				"difference": "0.14",
+				"updatedCount": "123",
+				"largeRate": "0.36",
+				"preCount": "22",
+				"smallRate": "0.22"
+			},
+			"totalPkn": {}
+		},
+		"MI1dd6": {
+			"incrPkn": {
+				"difference": "0.14",
+				"updatedCount": "123",
+				"largeRate": "0.36",
+				"preCount": "22",
+				"smallRate": "0.22"
+			},
+			"totalPkn": {}
+		},
+		"MIsd4S": {
+			"incrPkn": {
+				"difference": "0.03",
+				"updatedCount": "234",
+				"largeRate": "0.94",
+				"preCount": "244",
+				"smallRate": "0.91"
+			},
+			"totalPkn": {
+				"difference": "0.16",
+				"updatedCount": "240",
+				"largeRate": "0.48",
+				"preCount": "245",
+				"smallRate": "0.32"
+			}
+		},
+		"MssI4S": {
+			"incrPkn": {
+				"difference": "0.03",
+				"updatedCount": "234",
+				"largeRate": "0.94",
+				"preCount": "244",
+				"smallRate": "0.91"
+			},
+			"totalPkn": {
+				"difference": "0.16",
+				"updatedCount": "240",
+				"largeRate": "0.48",
+				"preCount": "245",
+				"smallRate": "0.32"
+			}
+		},
+		"MI422S": {
+			"incrPkn": {
+				"difference": "0.03",
+				"updatedCount": "234",
+				"largeRate": "0.94",
+				"preCount": "244",
+				"smallRate": "0.91"
+			},
+			"totalPkn": {
+				"difference": "0.16",
+				"updatedCount": "240",
+				"largeRate": "0.48",
+				"preCount": "245",
+				"smallRate": "0.32"
+			}
+		},
+		"MI499S": {
+			"incrPkn": {
+				"difference": "0.03",
+				"updatedCount": "234",
+				"largeRate": "0.94",
+				"preCount": "244",
+				"smallRate": "0.91"
+			},
+			"totalPkn": {
+				"difference": "0.16",
+				"updatedCount": "240",
+				"largeRate": "0.48",
+				"preCount": "245",
+				"smallRate": "0.32"
+			}
+		},
+		"MI4dfdfS": {
+			"incrPkn": {
+				"difference": "0.03",
+				"updatedCount": "234",
+				"largeRate": "0.94",
+				"preCount": "244",
+				"smallRate": "0.91"
+			},
+			"totalPkn": {
+				"difference": "0.16",
+				"updatedCount": "240",
+				"largeRate": "0.48",
+				"preCount": "245",
+				"smallRate": "0.32"
+			}
+		},
+		"MI4lkjS": {
+			"incrPkn": {
+				"difference": "0.03",
+				"updatedCount": "234",
+				"largeRate": "0.94",
+				"preCount": "244",
+				"smallRate": "0.91"
+			},
+			"totalPkn": {
+				"difference": "0.16",
+				"updatedCount": "240",
+				"largeRate": "0.48",
+				"preCount": "245",
+				"smallRate": "0.32"
+			}
+		},
+		"MI4S000": {
+			"incrPkn": {
+				"difference": "0.03",
+				"updatedCount": "234",
+				"largeRate": "0.94",
+				"preCount": "244",
+				"smallRate": "0.91"
+			},
+			"totalPkn": {
+				"difference": "0.16",
+				"updatedCount": "240",
+				"largeRate": "0.48",
+				"preCount": "245",
+				"smallRate": "0.32"
+			}
+		},
+		"MI4aaaS": {
+			"incrPkn": {
+				"difference": "0.03",
+				"updatedCount": "234",
+				"largeRate": "0.94",
+				"preCount": "244",
+				"smallRate": "0.91"
+			},
+			"totalPkn": {
+				"difference": "0.16",
+				"updatedCount": "240",
+				"largeRate": "0.48",
+				"preCount": "245",
+				"smallRate": "0.32"
+			}
+		},
+		"MI4222S": {
+			"incrPkn": {
+				"difference": "0.03",
+				"updatedCount": "234",
+				"largeRate": "0.94",
+				"preCount": "244",
+				"smallRate": "0.91"
+			},
+			"totalPkn": {
+				"difference": "0.16",
+				"updatedCount": "240",
+				"largeRate": "0.48",
+				"preCount": "245",
+				"smallRate": "0.32"
+			}
+		},
+		"MI4S55": {
+			"incrPkn": {
+				"difference": "0.03",
+				"updatedCount": "234",
+				"largeRate": "0.94",
+				"preCount": "244",
+				"smallRate": "0.91"
+			},
+			"totalPkn": {
+				"difference": "0.16",
+				"updatedCount": "240",
+				"largeRate": "0.48",
+				"preCount": "245",
+				"smallRate": "0.32"
+			}
+		}
+	}
+}

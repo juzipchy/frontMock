@@ -1,0 +1,15 @@
+{
+    "status": "true", 
+    "data": {
+        "resources|5": [
+            {
+                "name": "mi5", 
+                "time|200-1000": 2400
+            }, 
+            {
+                "name": "mi4", 
+                "time|200-1000": 2300
+            }
+        ]
+    }
+}

@@ -1,0 +1,32 @@
+{
+	"data|20": [{
+		"bad_attach": {
+			"count": 59
+		},
+		"worst": "0.57",
+		"name": "MI2(aries)",
+		"worst_attach": {
+			"count": 156
+		},
+		"good_attach": {
+			"count": 56
+		},
+		"good": "0.20",
+		"bad": "0.22"
+	}, {
+		"bad_attach": {
+			"count": 51
+		},
+		"worst": "0.60",
+		"name": "MI4S(aqua)",
+		"worst_attach": {
+			"count": 138
+		},
+		"good_attach": {
+			"count": 36
+		},
+		"good": "0.16",
+		"bad": "0.23"
+	}],
+	"status": "true"
+}

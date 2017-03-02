@@ -1,0 +1,25 @@
+{
+  "status": "true",
+  "data": {
+    "6.1.9-7.1.2": {
+      "incrPkn": {
+        "avgTime": "67.0",
+        "sucCount": "54"
+      },
+      "totalPkn": {
+        "avgTime": "36.0",
+        "sucCount": "32"
+      }
+    },
+    "6.1.8-7.1.2": {
+      "incrPkn": {
+        "avgTime": "234.0",
+        "sucCount": "123"
+      },
+      "totalPkn": {
+        "avgTime": "22.0",
+        "sucCount": "34"
+      }
+    }
+  }
+}

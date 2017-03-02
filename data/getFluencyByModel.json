@@ -1,0 +1,186 @@
+{
+	"data": [{
+		"bad_attach": {
+			"count": 147
+		},
+		"worst": "0.18",
+		"name": "6.12.22",
+		"worst_attach": {
+			"count": 53
+		},
+		"good_attach": {
+			"count": 98
+		},
+		"good": "0.33",
+		"bad": "0.49"
+	}, {
+		"bad_attach": {
+			"count": 124
+		},
+		"worst": "0.16",
+		"name": "6.12.29",
+		"worst_attach": {
+			"count": 37
+		},
+		"good_attach": {
+			"count": 69
+		},
+		"good": "0.3",
+		"bad": "0.54"
+	}, {
+		"bad_attach": {
+			"count": 148
+		},
+		"worst": "0.28",
+		"name": "7.1.12",
+		"worst_attach": {
+			"count": 82
+		},
+		"good_attach": {
+			"count": 59
+		},
+		"good": "0.2",
+		"bad": "0.51"
+	}, {
+		"bad_attach": {
+			"count": 264
+		},
+		"worst": "0.31",
+		"name": "7.1.19",
+		"worst_attach": {
+			"count": 133
+		},
+		"good_attach": {
+			"count": 37
+		},
+		"good": "0.09",
+		"bad": "0.6"
+	}, {
+		"bad_attach": {
+			"count": 246
+		},
+		"worst": "0.37",
+		"name": "7.1.20",
+		"worst_attach": {
+			"count": 195
+		},
+		"good_attach": {
+			"count": 93
+		},
+		"good": "0.17",
+		"bad": "0.46"
+	}, {
+		"bad_attach": {
+			"count": 167
+		},
+		"worst": "0.19",
+		"name": "7.1.5",
+		"worst_attach": {
+			"count": 53
+		},
+		"good_attach": {
+			"count": 61
+		},
+		"good": "0.22",
+		"bad": "0.59"
+	}, {
+		"bad_attach": {
+			"count": 811
+		},
+		"worst": "0.79",
+		"name": "7.2.16",
+		"worst_attach": {
+			"count": 3391
+		},
+		"good_attach": {
+			"count": 95
+		},
+		"good": "0.02",
+		"bad": "0.19"
+	}, {
+		"bad_attach": {
+			"count": 1341
+		},
+		"worst": "0.82",
+		"name": "7.2.17",
+		"worst_attach": {
+			"count": 7212
+		},
+		"good_attach": {
+			"count": 207
+		},
+		"good": "0.02",
+		"bad": "0.15"
+	}, {
+		"bad_attach": {
+			"count": 3257
+		},
+		"worst": "0.3",
+		"name": "7.2.20",
+		"worst_attach": {
+			"count": 1943
+		},
+		"good_attach": {
+			"count": 1243
+		},
+		"good": "0.19",
+		"bad": "0.51"
+	}, {
+		"bad_attach": {
+			"count": 55
+		},
+		"worst": "0.92",
+		"name": "7.2.22",
+		"worst_attach": {
+			"count": 917
+		},
+		"good_attach": {
+			"count": 30
+		},
+		"good": "0.03",
+		"bad": "0.05"
+	}, {
+		"bad_attach": {
+			"count": 1720
+		},
+		"worst": "0.92",
+		"name": "7.2.23",
+		"worst_attach": {
+			"count": 26252
+		},
+		"good_attach": {
+			"count": 670
+		},
+		"good": "0.02",
+		"bad": "0.06"
+	}, {
+		"bad_attach": {
+			"count": 64
+		},
+		"worst": "0.93",
+		"name": "7.2.24",
+		"worst_attach": {
+			"count": 1058
+		},
+		"good_attach": {
+			"count": 10
+		},
+		"good": "0.01",
+		"bad": "0.06"
+	}, {
+		"bad_attach": {
+			"count": 255
+		},
+		"worst": "0.38",
+		"name": "7.2.9",
+		"worst_attach": {
+			"count": 208
+		},
+		"good_attach": {
+			"count": 85
+		},
+		"good": "0.16",
+		"bad": "0.46"
+	}],
+	"status": "true"
+}

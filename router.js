@@ -19,6 +19,10 @@ module.exports =  {
 		type: 'GET',
 		data: './data/test.json'
 	},
+	'/mqsas/startTime/getAvgStartTime.do': {
+		type: 'GET',
+		data: './data/adTest.json'
+	},
 	'/mqsas/test1': {
 		type: 'POST',
 		data: './data/test1.json'
@@ -35,7 +39,7 @@ module.exports =  {
 	},
 	'/mqsas/performance/dropFrame/screenAllStatus.do': {
 		type: 'GET',
-		data: './data/vsresult.json'
+		data: './data/allStatus.json'
 	},
 
 	'/mqsas/performance/dropFrame/trend.do': {
@@ -134,6 +138,42 @@ module.exports =  {
 	"/mqsas/caton/app/getSysCause.do":{
 		type: 'GET',
 		data: './data/catonAppGetCause.json'
+	},
+	"/mqsas/startTime/getWhiteList.do": {
+		type: 'GET',
+		data: './data/getWhiteListVersion.json'
+	},
+	"/mqsas/successRatetest": {
+		type: 'GET',
+		data: './data/successRatetest.json'
+	},
+	"/mqsas/successRateVersion":{
+		type: 'GET',
+		data: './data/successRateVersion.json'
+	},
+	"/mqsas/otatime/getUpdateRate.do": {
+		type: 'GET',
+		data: './data/getUpdateRate.json'
+	},
+	"/mqsas/excp//dashboard/allVersion.do": {
+		type: 'GET',
+		data: './data/allVersion.json'
+	},
+	"/mqsas/fluency/getFluencyByVersion.do": {
+		type: 'GET',
+		data: './data/getFluencyByVersion.json'
+	},
+	"/mqsas/fluency/getFluencyByModel.do": {
+		type: 'GET',
+		data: './data/getFluencyByModel.json'
+	},
+	"/mqsas/caton/app/defaultStatus.do": {
+		type: 'GET',
+		data: './data/defaultStatus.json'
+	},
+	"/mqsas/excp/getPkns.do": {
+		type: 'GET',
+		data: './data/getPkns.json'
 	}
 
 }

@@ -1,7 +1,13 @@
 {
-	"data|10": [
+	"data|5-30": [
 		{
 			"value|1-100": 1,
+			"good|1-100": 1,
+			"worst_attach": {
+				"test": 123
+			},
+			"worst|1-100": 1,
+			"bad|1-100": 1,
 			"name|1-2": "@string('lower', 5)"
 		}
 	],
