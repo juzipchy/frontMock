@@ -3,20 +3,22 @@ const Mock = require('mockjs'),
 	// delay = require('express-delay'),
 	router = require('./router.js'),
 	express = require('express'),
-	app = express()
+	fs = require('fs'),
+	app = express();
 	// app.use(delay(100000))
 	_.each(router, function (data, name) {
-		console.log(name)
 		if(data.type == 'GET'){
 		    app.get(name , function(req, res) {
-		        var text = Mock.mock(require(data.data))
+		    	let dataFormatted = JSON.parse(fs.readFileSync(data.data));
+		        var text = Mock.mock(dataFormatted)
 		        res.send(text);
 		    });
 		}
 		if(data.type == 'POST'){
 		    app.post(name , function(req, res) {
 		    	// console.log(req.files)
-		        var text = Mock.mock(require(data.data))
+		    	let dataFormatted = JSON.parse(fs.readFileSync(data.data));
+		        var text = Mock.mock(dataFormatted)
 		        res.send(text);
 		    });
 		}
