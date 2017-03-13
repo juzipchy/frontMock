@@ -1,28 +1,28 @@
 const Mock = require('mockjs'),
 	_ = require('underscore'),
 	// delay = require('express-delay'),
-	router = require('./router.js'),
+	posts = require('./route/post'),
+	gets = require('./route/get'),
 	express = require('express'),
 	fs = require('fs'),
 	app = express();
 	// app.use(delay(100000))
-	_.each(router, function (data, name) {
-		if(data.type == 'GET'){
-		    app.get(name , function(req, res) {
-		    	let dataFormatted = JSON.parse(fs.readFileSync(data.data));
-		        var text = Mock.mock(dataFormatted)
-		        res.send(text);
-		    });
-		}
-		if(data.type == 'POST'){
-		    app.post(name , function(req, res) {
-		    	// console.log(req.files)
-		    	let dataFormatted = JSON.parse(fs.readFileSync(data.data));
-		        var text = Mock.mock(dataFormatted)
-		        res.send(text);
-		    });
-		}
+	_.each(posts, function (value, name) {
+	    app.post(name , function(req, res) {
+	    	let dataFormatted = JSON.parse(fs.readFileSync(`./data/${value}.json`));
+	        var text = Mock.mock(dataFormatted)
+	        res.send(text);
+	    });
 	})
+	_.each(gets, function (value, name) {
+		    app.get(name , function(req, res) {
+		    	let dataFormatted = JSON.parse(fs.readFileSync(`./data/${value}.json`));
+		        var text = Mock.mock(dataFormatted)
+		        res.send(text);
+		    });
+		})
+
+
 
 // app.use(router)
 app.listen(3001, function (err, result){
