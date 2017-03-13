@@ -1,0 +1,23 @@
+{
+	"status": "true",
+	"data": {
+		"catontimes": [{
+			"index": "7.2.24",
+			"pairs": {
+				"AVG_CATON_TIME": "29.54",
+				"AVG_CATON_TIME-attach": "{\"count\":\"55509\"}"
+			},
+			"x": ""
+		}],
+		"catoncounts": [{
+			"index": "7.2.24",
+			"pairs": {
+				"AVG_CATON_COUNT": "90.09",
+				"AVG_CATON_COUNT-attach": "{\"count\":\"55509\"}"
+			},
+			"x": ""
+		}],
+		"models": ["AVG_CATON_TIME"]
+	},
+	"desc": "get avg success"
+}

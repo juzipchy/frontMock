@@ -15,8 +15,12 @@ module.exports =  {
 		type: 'GET',
 		data: './data/mqsasDropFrame.json'
 	},
-	'/mqsas/test': {
+	'/test1/test': {
 		type: 'GET',
+		data: './data/test.json'
+	},
+	'/test1/test': {
+		type: 'POST',
 		data: './data/test.json'
 	},
 	'/mqsas/startTime/getAvgStartTime.do': {
@@ -26,6 +30,10 @@ module.exports =  {
 	'/mqsas/test1': {
 		type: 'POST',
 		data: './data/test1.json'
+	},
+	'/mqsas/test1': {
+		type: 'GET',
+		data: './data/test.json'
 	},
 
 	'/mqsas/performance/dropFrame/ringCmp.do': {
@@ -174,6 +182,22 @@ module.exports =  {
 	"/mqsas/excp/getPkns.do": {
 		type: 'GET',
 		data: './data/getPkns.json'
+	},
+	"/mqsas/excp/dashboard/category.do": {
+		type: 'GET',
+		data: './data/category.json'
+	},
+	'/mqsasdata/getUsefullVersion.do':{
+		type: 'GET',
+		data: './data/getUsefullVersion.json'
+	},
+	"/mqsas/performance/dropFrame/avgCaton.do":{
+		type: 'GET',
+		data: './data/avgCaton.json'
+	},
+	"/whiteList/showAll/mqsas.do": {
+		type: 'GET',
+		data: './data/whiteListshowAll.json'
 	}
 
 }

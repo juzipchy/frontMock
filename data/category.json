@@ -1,0 +1,17 @@
+{
+	"data": {
+		"indexs": ["全部机型版本"],
+		"resources": [{
+			"全部机型版本-attach": {
+				"nextUrl": "/mqsas/excp/dashboard/category.do?bigCategory=restart",
+				"hasDetail": "true",
+				"isLast": true,
+				"dgt":"dsafasdf",
+				"summary": "xiongmeiqiang"
+			},
+			"name": "死机重启",
+			"全部机型版本": 11873
+		}]
+	},
+	"status": "true"
+}
