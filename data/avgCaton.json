@@ -2,22 +2,952 @@
 	"status": "true",
 	"data": {
 		"catontimes": [{
+			"index": "7.2.16",
+			"pair": {
+				"MINOTELTE(virgo)": "29.19",
+				"MINOTELTE(virgo)-attach": {
+					"count": "78132"
+				},
+				"MI4C(cancro)": "26.05",
+				"MI4C(cancro)-attach": {
+					"count": "10658"
+				},
+				"MI4W(cancro)": "26.75",
+				"MI4W(cancro)-attach": {
+					"count": "13082"
+				},
+				"RedmiNote4(nikel)": "27.87",
+				"RedmiNote4(nikel)-attach": {
+					"count": "14613"
+				},
+				"MI5sPlus(natrium)": "15.83",
+				"MI5sPlus(natrium)-attach": {
+					"count": "9081"
+				},
+				"2014813(HM2014813)": "46.98",
+				"2014813(HM2014813)-attach": {
+					"count": "11623"
+				},
+				"RedmiNote3(hennessy)": "32.94",
+				"RedmiNote3(hennessy)-attach": {
+					"count": "39719"
+				},
+				"MI5s(capricorn)": "23.64",
+				"MI5s(capricorn)-attach": {
+					"count": "14558"
+				},
+				"MI4LTE(cancro)": "30.5",
+				"MI4LTE(cancro)-attach": {
+					"count": "94589"
+				},
+				"MiNote2(scorpio)": "17.09",
+				"MiNote2(scorpio)-attach": {
+					"count": "3075"
+				},
+				"Redmi3X(land)": "31.52",
+				"Redmi3X(land)-attach": {
+					"count": "3181"
+				},
+				"Mi-4c(libra)": "9.5",
+				"Mi-4c(libra)-attach": {
+					"count": "45206"
+				},
+				"MI3C(cancro)": "27.6",
+				"MI3C(cancro)-attach": {
+					"count": "16522"
+				},
+				"Redmi3S(land)": "32.85",
+				"Redmi3S(land)-attach": {
+					"count": "16278"
+				},
+				"Redmi4A(rolex)": "30.59",
+				"Redmi4A(rolex)-attach": {
+					"count": "1276"
+				},
+				"MIX(lithium)": "18.2",
+				"MIX(lithium)-attach": {
+					"count": "2177"
+				},
+				"MI2S(aries)": "28.69",
+				"MI2S(aries)-attach": {
+					"count": "34016"
+				},
+				"Redmi3(ido)": "39.6",
+				"Redmi3(ido)-attach": {
+					"count": "20745"
+				},
+				"RedmiNote2(hermes)": "31.6",
+				"RedmiNote2(hermes)-attach": {
+					"count": "50995"
+				},
+				"RedmiPro(omega)": "29.4",
+				"RedmiPro(omega)-attach": {
+					"count": "6931"
+				},
+				"MI2(aries)": "31.3",
+				"MI2(aries)-attach": {
+					"count": "14930"
+				},
+				"MI2SC(aries)": "29.35",
+				"MI2SC(aries)-attach": {
+					"count": "19745"
+				},
+				"RedmiNote3(kenzo)": "30.36",
+				"RedmiNote3(kenzo)-attach": {
+					"count": "40593"
+				},
+				"Redmi4(prada)": "38.76",
+				"Redmi4(prada)-attach": {
+					"count": "454"
+				},
+				"MI3W(cancro)": "28.06",
+				"MI3W(cancro)-attach": {
+					"count": "22040"
+				},
+				"Redmi4(markw)": "24.38",
+				"Redmi4(markw)-attach": {
+					"count": "5349"
+				}
+			}
+		}, {
 			"index": "7.2.24",
-			"pairs": {
-				"AVG_CATON_TIME": "29.54",
-				"AVG_CATON_TIME-attach": "{\"count\":\"55509\"}"
-			},
-			"x": ""
+			"pair": {
+				"MI4C(cancro)": "26.92",
+				"MI4C(cancro)-attach": {
+					"count": "11185"
+				},
+				"MINOTELTE(virgo)": "30.49",
+				"MINOTELTE(virgo)-attach": {
+					"count": "72856"
+				},
+				"MI4W(cancro)": "27.44",
+				"MI4W(cancro)-attach": {
+					"count": "13665"
+				},
+				"RedmiNote4(nikel)": "26.0",
+				"RedmiNote4(nikel)-attach": {
+					"count": "2097"
+				},
+				"MI5sPlus(natrium)": "16.76",
+				"MI5sPlus(natrium)-attach": {
+					"count": "8894"
+				},
+				"MIMAX(hydrogen)": "28.55",
+				"MIMAX(hydrogen)-attach": {
+					"count": "12344"
+				},
+				"2014813(HM2014813)": "48.47",
+				"2014813(HM2014813)-attach": {
+					"count": "10723"
+				},
+				"RedmiNote3(hennessy)": "34.38",
+				"RedmiNote3(hennessy)-attach": {
+					"count": "37419"
+				},
+				"MI5s(capricorn)": "24.49",
+				"MI5s(capricorn)-attach": {
+					"count": "13623"
+				},
+				"RedmiNote4X(mido)": "30.21",
+				"RedmiNote4X(mido)-attach": {
+					"count": "377"
+				},
+				"MI4LTE(cancro)": "31.54",
+				"MI4LTE(cancro)-attach": {
+					"count": "107624"
+				},
+				"MiNote2(scorpio)": "17.86",
+				"MiNote2(scorpio)-attach": {
+					"count": "3065"
+				},
+				"Redmi3X(land)": "33.27",
+				"Redmi3X(land)-attach": {
+					"count": "3024"
+				},
+				"MI3C(cancro)": "28.89",
+				"MI3C(cancro)-attach": {
+					"count": "15283"
+				},
+				"Redmi3S(land)": "34.36",
+				"Redmi3S(land)-attach": {
+					"count": "15107"
+				},
+				"MI5(gemini)": "29.54",
+				"MI5(gemini)-attach": {
+					"count": "55509"
+				},
+				"MIX(lithium)": "18.97",
+				"MIX(lithium)-attach": {
+					"count": "2101"
+				},
+				"Redmi4A(rolex)": "32.22",
+				"Redmi4A(rolex)-attach": {
+					"count": "1195"
+				},
+				"MI2S(aries)": "29.85",
+				"MI2S(aries)-attach": {
+					"count": "31157"
+				},
+				"Redmi3(ido)": "41.34",
+				"Redmi3(ido)-attach": {
+					"count": "19619"
+				},
+				"RedmiNote2(hermes)": "32.84",
+				"RedmiNote2(hermes)-attach": {
+					"count": "47826"
+				},
+				"MIMAX(helium)": "26.86",
+				"MIMAX(helium)-attach": {
+					"count": "7636"
+				},
+				"RedmiPro(omega)": "29.76",
+				"RedmiPro(omega)-attach": {
+					"count": "6330"
+				},
+				"MI2(aries)": "32.68",
+				"MI2(aries)-attach": {
+					"count": "13456"
+				},
+				"MI2SC(aries)": "30.49",
+				"MI2SC(aries)-attach": {
+					"count": "18160"
+				},
+				"RedmiNote3(kenzo)": "31.56",
+				"RedmiNote3(kenzo)-attach": {
+					"count": "37875"
+				},
+				"Redmi4(prada)": "41.01",
+				"Redmi4(prada)-attach": {
+					"count": "425"
+				},
+				"MI3W(cancro)": "29.15",
+				"MI3W(cancro)-attach": {
+					"count": "20062"
+				},
+				"Redmi4(markw)": "25.0",
+				"Redmi4(markw)-attach": {
+					"count": "5141"
+				}
+			}
+		}, {
+			"index": "7.3.2",
+			"pair": {
+				"MI4C(cancro)": "28.73",
+				"MI4C(cancro)-attach": {
+					"count": "235"
+				},
+				"MINOTELTE(virgo)": "30.44",
+				"MINOTELTE(virgo)-attach": {
+					"count": "78231"
+				},
+				"RedmiNote4(nikel)": "30.45",
+				"RedmiNote4(nikel)-attach": {
+					"count": "14169"
+				},
+				"MIMAX(hydrogen)": "29.55",
+				"MIMAX(hydrogen)-attach": {
+					"count": "12917"
+				},
+				"2014813(HM2014813)": "48.55",
+				"2014813(HM2014813)-attach": {
+					"count": "11586"
+				},
+				"RedmiNote3(hennessy)": "34.4",
+				"RedmiNote3(hennessy)-attach": {
+					"count": "203"
+				},
+				"MI4S(aqua)": "33.66",
+				"MI4S(aqua)-attach": {
+					"count": "404"
+				},
+				"RedmiNote4X(mido)": "28.57",
+				"RedmiNote4X(mido)-attach": {
+					"count": "772"
+				},
+				"MI5s(capricorn)": "24.48",
+				"MI5s(capricorn)-attach": {
+					"count": "540"
+				},
+				"MI4LTE(cancro)": "33.07",
+				"MI4LTE(cancro)-attach": {
+					"count": "11128"
+				},
+				"MiNote2(scorpio)": "18.48",
+				"MiNote2(scorpio)-attach": {
+					"count": "3410"
+				},
+				"Redmi3X(land)": "34.47",
+				"Redmi3X(land)-attach": {
+					"count": "3371"
+				},
+				"Mi-4c(libra)": "37.31",
+				"Mi-4c(libra)-attach": {
+					"count": "2119"
+				},
+				"MI3C(cancro)": "25.93",
+				"MI3C(cancro)-attach": {
+					"count": "101"
+				},
+				"Redmi3S(land)": "36.19",
+				"Redmi3S(land)-attach": {
+					"count": "16668"
+				},
+				"MI5(gemini)": "31.19",
+				"MI5(gemini)-attach": {
+					"count": "59757"
+				},
+				"MIX(lithium)": "19.99",
+				"MIX(lithium)-attach": {
+					"count": "2409"
+				},
+				"Redmi4A(rolex)": "32.68",
+				"Redmi4A(rolex)-attach": {
+					"count": "1476"
+				},
+				"MI2S(aries)": "30.99",
+				"MI2S(aries)-attach": {
+					"count": "33699"
+				},
+				"Redmi3(ido)": "41.94",
+				"Redmi3(ido)-attach": {
+					"count": "21260"
+				},
+				"MIMAX(helium)": "27.11",
+				"MIMAX(helium)-attach": {
+					"count": "7844"
+				},
+				"MI2SC(aries)": "31.34",
+				"MI2SC(aries)-attach": {
+					"count": "19793"
+				},
+				"MI2(aries)": "33.65",
+				"MI2(aries)-attach": {
+					"count": "14526"
+				},
+				"RedmiNote3(kenzo)": "33.12",
+				"RedmiNote3(kenzo)-attach": {
+					"count": "40423"
+				},
+				"Redmi4(prada)": "39.06",
+				"Redmi4(prada)-attach": {
+					"count": "501"
+				},
+				"MI3W(cancro)": "27.4",
+				"MI3W(cancro)-attach": {
+					"count": "115"
+				},
+				"Redmi4(markw)": "25.85",
+				"Redmi4(markw)-attach": {
+					"count": "5729"
+				}
+			}
+		}, {
+			"index": "7.3.9",
+			"pair": {
+				"MI4C(cancro)": "25.95",
+				"MI4C(cancro)-attach": {
+					"count": "10835"
+				},
+				"MINOTELTE(virgo)": "29.65",
+				"MINOTELTE(virgo)-attach": {
+					"count": "75019"
+				},
+				"RedmiNote4(nikel)": "30.67",
+				"RedmiNote4(nikel)-attach": {
+					"count": "15069"
+				},
+				"MI4W(cancro)": "26.34",
+				"MI4W(cancro)-attach": {
+					"count": "9970"
+				},
+				"MI5sPlus(natrium)": "16.41",
+				"MI5sPlus(natrium)-attach": {
+					"count": "9638"
+				},
+				"MIMAX(hydrogen)": "29.59",
+				"MIMAX(hydrogen)-attach": {
+					"count": "12572"
+				},
+				"RedmiNote3(hennessy)": "32.8",
+				"RedmiNote3(hennessy)-attach": {
+					"count": "36589"
+				},
+				"2014813(HM2014813)": "47.15",
+				"2014813(HM2014813)-attach": {
+					"count": "11061"
+				},
+				"MI5s(capricorn)": "24.28",
+				"MI5s(capricorn)-attach": {
+					"count": "14557"
+				},
+				"RedmiNote4X(mido)": "28.22",
+				"RedmiNote4X(mido)-attach": {
+					"count": "1005"
+				},
+				"MI4S(aqua)": "56.12",
+				"MI4S(aqua)-attach": {
+					"count": "340"
+				},
+				"MI4LTE(cancro)": "29.83",
+				"MI4LTE(cancro)-attach": {
+					"count": "76450"
+				},
+				"MiNote2(scorpio)": "17.69",
+				"MiNote2(scorpio)-attach": {
+					"count": "3651"
+				},
+				"Redmi3X(land)": "33.71",
+				"Redmi3X(land)-attach": {
+					"count": "3288"
+				},
+				"Mi-4c(libra)": "44.35",
+				"Mi-4c(libra)-attach": {
+					"count": "5645"
+				},
+				"MI3C(cancro)": "26.5",
+				"MI3C(cancro)-attach": {
+					"count": "15278"
+				},
+				"Redmi3S(land)": "34.63",
+				"Redmi3S(land)-attach": {
+					"count": "15942"
+				},
+				"MI5(gemini)": "29.34",
+				"MI5(gemini)-attach": {
+					"count": "58704"
+				},
+				"Redmi4A(rolex)": "32.32",
+				"Redmi4A(rolex)-attach": {
+					"count": "1452"
+				},
+				"MIX(lithium)": "18.83",
+				"MIX(lithium)-attach": {
+					"count": "2660"
+				},
+				"MI2S(aries)": "29.75",
+				"MI2S(aries)-attach": {
+					"count": "31955"
+				},
+				"Redmi3(ido)": "39.84",
+				"Redmi3(ido)-attach": {
+					"count": "20544"
+				},
+				"RedmiNote2(hermes)": "31.48",
+				"RedmiNote2(hermes)-attach": {
+					"count": "47806"
+				},
+				"MIMAX(helium)": "27.51",
+				"MIMAX(helium)-attach": {
+					"count": "7695"
+				},
+				"MINOTEPro(leo)": "39.68",
+				"MINOTEPro(leo)-attach": {
+					"count": "3099"
+				},
+				"MI2SC(aries)": "30.25",
+				"MI2SC(aries)-attach": {
+					"count": "18786"
+				},
+				"RedmiPro(omega)": "29.82",
+				"RedmiPro(omega)-attach": {
+					"count": "6723"
+				},
+				"MI2(aries)": "32.55",
+				"MI2(aries)-attach": {
+					"count": "13689"
+				},
+				"RedmiNote3(kenzo)": "32.18",
+				"RedmiNote3(kenzo)-attach": {
+					"count": "38808"
+				},
+				"Redmi4(prada)": "42.13",
+				"Redmi4(prada)-attach": {
+					"count": "509"
+				},
+				"MI3W(cancro)": "26.99",
+				"MI3W(cancro)-attach": {
+					"count": "20029"
+				},
+				"Redmi4(markw)": "25.23",
+				"Redmi4(markw)-attach": {
+					"count": "5684"
+				}
+			}
 		}],
 		"catoncounts": [{
+			"index": "7.2.16",
+			"pair": {
+				"MINOTELTE(virgo)": "83.52",
+				"MINOTELTE(virgo)-attach": {
+					"count": "78132"
+				},
+				"MI4C(cancro)": "78.58",
+				"MI4C(cancro)-attach": {
+					"count": "10658"
+				},
+				"MI4W(cancro)": "79.11",
+				"MI4W(cancro)-attach": {
+					"count": "13082"
+				},
+				"RedmiNote4(nikel)": "91.62",
+				"RedmiNote4(nikel)-attach": {
+					"count": "14613"
+				},
+				"MI5sPlus(natrium)": "53.93",
+				"MI5sPlus(natrium)-attach": {
+					"count": "9081"
+				},
+				"2014813(HM2014813)": "107.19",
+				"2014813(HM2014813)-attach": {
+					"count": "11623"
+				},
+				"RedmiNote3(hennessy)": "86.46",
+				"RedmiNote3(hennessy)-attach": {
+					"count": "39719"
+				},
+				"MI5s(capricorn)": "77.24",
+				"MI5s(capricorn)-attach": {
+					"count": "14558"
+				},
+				"MI4LTE(cancro)": "86.34",
+				"MI4LTE(cancro)-attach": {
+					"count": "94589"
+				},
+				"MiNote2(scorpio)": "56.48",
+				"MiNote2(scorpio)-attach": {
+					"count": "3075"
+				},
+				"Redmi3X(land)": "93.14",
+				"Redmi3X(land)-attach": {
+					"count": "3181"
+				},
+				"Mi-4c(libra)": "35.35",
+				"Mi-4c(libra)-attach": {
+					"count": "45206"
+				},
+				"MI3C(cancro)": "79.32",
+				"MI3C(cancro)-attach": {
+					"count": "16522"
+				},
+				"Redmi3S(land)": "93.07",
+				"Redmi3S(land)-attach": {
+					"count": "16278"
+				},
+				"Redmi4A(rolex)": "88.39",
+				"Redmi4A(rolex)-attach": {
+					"count": "1276"
+				},
+				"MIX(lithium)": "60.32",
+				"MIX(lithium)-attach": {
+					"count": "2177"
+				},
+				"MI2S(aries)": "84.42",
+				"MI2S(aries)-attach": {
+					"count": "34016"
+				},
+				"Redmi3(ido)": "99.1",
+				"Redmi3(ido)-attach": {
+					"count": "20745"
+				},
+				"RedmiNote2(hermes)": "85.27",
+				"RedmiNote2(hermes)-attach": {
+					"count": "50995"
+				},
+				"RedmiPro(omega)": "92.88",
+				"RedmiPro(omega)-attach": {
+					"count": "6931"
+				},
+				"MI2(aries)": "94.41",
+				"MI2(aries)-attach": {
+					"count": "14930"
+				},
+				"MI2SC(aries)": "86.35",
+				"MI2SC(aries)-attach": {
+					"count": "19745"
+				},
+				"RedmiNote3(kenzo)": "90.11",
+				"RedmiNote3(kenzo)-attach": {
+					"count": "40593"
+				},
+				"Redmi4(prada)": "112.57",
+				"Redmi4(prada)-attach": {
+					"count": "454"
+				},
+				"MI3W(cancro)": "80.12",
+				"MI3W(cancro)-attach": {
+					"count": "22040"
+				},
+				"Redmi4(markw)": "78.37",
+				"Redmi4(markw)-attach": {
+					"count": "5349"
+				}
+			}
+		}, {
 			"index": "7.2.24",
-			"pairs": {
-				"AVG_CATON_COUNT": "90.09",
-				"AVG_CATON_COUNT-attach": "{\"count\":\"55509\"}"
-			},
-			"x": ""
+			"pair": {
+				"MI4C(cancro)": "78.67",
+				"MI4C(cancro)-attach": {
+					"count": "11185"
+				},
+				"MINOTELTE(virgo)": "85.9",
+				"MINOTELTE(virgo)-attach": {
+					"count": "72856"
+				},
+				"MI4W(cancro)": "79.68",
+				"MI4W(cancro)-attach": {
+					"count": "13665"
+				},
+				"RedmiNote4(nikel)": "88.59",
+				"RedmiNote4(nikel)-attach": {
+					"count": "2097"
+				},
+				"MI5sPlus(natrium)": "56.48",
+				"MI5sPlus(natrium)-attach": {
+					"count": "8894"
+				},
+				"MIMAX(hydrogen)": "85.51",
+				"MIMAX(hydrogen)-attach": {
+					"count": "12344"
+				},
+				"2014813(HM2014813)": "109.81",
+				"2014813(HM2014813)-attach": {
+					"count": "10723"
+				},
+				"RedmiNote3(hennessy)": "88.78",
+				"RedmiNote3(hennessy)-attach": {
+					"count": "37419"
+				},
+				"MI5s(capricorn)": "77.77",
+				"MI5s(capricorn)-attach": {
+					"count": "13623"
+				},
+				"RedmiNote4X(mido)": "90.29",
+				"RedmiNote4X(mido)-attach": {
+					"count": "377"
+				},
+				"MI4LTE(cancro)": "87.26",
+				"MI4LTE(cancro)-attach": {
+					"count": "107624"
+				},
+				"MiNote2(scorpio)": "58.04",
+				"MiNote2(scorpio)-attach": {
+					"count": "3065"
+				},
+				"Redmi3X(land)": "95.54",
+				"Redmi3X(land)-attach": {
+					"count": "3024"
+				},
+				"MI3C(cancro)": "80.67",
+				"MI3C(cancro)-attach": {
+					"count": "15283"
+				},
+				"Redmi3S(land)": "95.87",
+				"Redmi3S(land)-attach": {
+					"count": "15107"
+				},
+				"MI5(gemini)": "90.09",
+				"MI5(gemini)-attach": {
+					"count": "55509"
+				},
+				"MIX(lithium)": "60.84",
+				"MIX(lithium)-attach": {
+					"count": "2101"
+				},
+				"Redmi4A(rolex)": "91.1",
+				"Redmi4A(rolex)-attach": {
+					"count": "1195"
+				},
+				"MI2S(aries)": "86.66",
+				"MI2S(aries)-attach": {
+					"count": "31157"
+				},
+				"Redmi3(ido)": "102.33",
+				"Redmi3(ido)-attach": {
+					"count": "19619"
+				},
+				"RedmiNote2(hermes)": "87.41",
+				"RedmiNote2(hermes)-attach": {
+					"count": "47826"
+				},
+				"MIMAX(helium)": "81.49",
+				"MIMAX(helium)-attach": {
+					"count": "7636"
+				},
+				"RedmiPro(omega)": "94.31",
+				"RedmiPro(omega)-attach": {
+					"count": "6330"
+				},
+				"MI2(aries)": "97.11",
+				"MI2(aries)-attach": {
+					"count": "13456"
+				},
+				"MI2SC(aries)": "87.83",
+				"MI2SC(aries)-attach": {
+					"count": "18160"
+				},
+				"RedmiNote3(kenzo)": "92.74",
+				"RedmiNote3(kenzo)-attach": {
+					"count": "37875"
+				},
+				"Redmi4(prada)": "115.16",
+				"Redmi4(prada)-attach": {
+					"count": "425"
+				},
+				"MI3W(cancro)": "81.0",
+				"MI3W(cancro)-attach": {
+					"count": "20062"
+				},
+				"Redmi4(markw)": "79.76",
+				"Redmi4(markw)-attach": {
+					"count": "5141"
+				}
+			}
+		}, {
+			"index": "7.3.2",
+			"pair": {
+				"MI4C(cancro)": "84.77",
+				"MI4C(cancro)-attach": {
+					"count": "235"
+				},
+				"MINOTELTE(virgo)": "85.24",
+				"MINOTELTE(virgo)-attach": {
+					"count": "78231"
+				},
+				"RedmiNote4(nikel)": "98.99",
+				"RedmiNote4(nikel)-attach": {
+					"count": "14169"
+				},
+				"MIMAX(hydrogen)": "87.59",
+				"MIMAX(hydrogen)-attach": {
+					"count": "12917"
+				},
+				"2014813(HM2014813)": "108.27",
+				"2014813(HM2014813)-attach": {
+					"count": "11586"
+				},
+				"RedmiNote3(hennessy)": "93.35",
+				"RedmiNote3(hennessy)-attach": {
+					"count": "203"
+				},
+				"MI4S(aqua)": "101.04",
+				"MI4S(aqua)-attach": {
+					"count": "404"
+				},
+				"RedmiNote4X(mido)": "86.27",
+				"RedmiNote4X(mido)-attach": {
+					"count": "772"
+				},
+				"MI5s(capricorn)": "81.89",
+				"MI5s(capricorn)-attach": {
+					"count": "540"
+				},
+				"MI4LTE(cancro)": "92.04",
+				"MI4LTE(cancro)-attach": {
+					"count": "11128"
+				},
+				"MiNote2(scorpio)": "60.5",
+				"MiNote2(scorpio)-attach": {
+					"count": "3410"
+				},
+				"Redmi3X(land)": "97.97",
+				"Redmi3X(land)-attach": {
+					"count": "3371"
+				},
+				"Mi-4c(libra)": "107.69",
+				"Mi-4c(libra)-attach": {
+					"count": "2119"
+				},
+				"MI3C(cancro)": "79.84",
+				"MI3C(cancro)-attach": {
+					"count": "101"
+				},
+				"Redmi3S(land)": "97.98",
+				"Redmi3S(land)-attach": {
+					"count": "16668"
+				},
+				"MI5(gemini)": "93.09",
+				"MI5(gemini)-attach": {
+					"count": "59757"
+				},
+				"MIX(lithium)": "63.13",
+				"MIX(lithium)-attach": {
+					"count": "2409"
+				},
+				"Redmi4A(rolex)": "95.3",
+				"Redmi4A(rolex)-attach": {
+					"count": "1476"
+				},
+				"MI2S(aries)": "87.91",
+				"MI2S(aries)-attach": {
+					"count": "33699"
+				},
+				"Redmi3(ido)": "101.77",
+				"Redmi3(ido)-attach": {
+					"count": "21260"
+				},
+				"MIMAX(helium)": "82.69",
+				"MIMAX(helium)-attach": {
+					"count": "7844"
+				},
+				"MI2SC(aries)": "90.71",
+				"MI2SC(aries)-attach": {
+					"count": "19793"
+				},
+				"MI2(aries)": "97.94",
+				"MI2(aries)-attach": {
+					"count": "14526"
+				},
+				"RedmiNote3(kenzo)": "95.29",
+				"RedmiNote3(kenzo)-attach": {
+					"count": "40423"
+				},
+				"Redmi4(prada)": "114.26",
+				"Redmi4(prada)-attach": {
+					"count": "501"
+				},
+				"MI3W(cancro)": "76.69",
+				"MI3W(cancro)-attach": {
+					"count": "115"
+				},
+				"Redmi4(markw)": "80.24",
+				"Redmi4(markw)-attach": {
+					"count": "5729"
+				}
+			}
+		}, {
+			"index": "7.3.9",
+			"pair": {
+				"MI4C(cancro)": "76.05",
+				"MI4C(cancro)-attach": {
+					"count": "10835"
+				},
+				"MINOTELTE(virgo)": "82.71",
+				"MINOTELTE(virgo)-attach": {
+					"count": "75019"
+				},
+				"RedmiNote4(nikel)": "97.21",
+				"RedmiNote4(nikel)-attach": {
+					"count": "15069"
+				},
+				"MI4W(cancro)": "77.55",
+				"MI4W(cancro)-attach": {
+					"count": "9970"
+				},
+				"MI5sPlus(natrium)": "56.12",
+				"MI5sPlus(natrium)-attach": {
+					"count": "9638"
+				},
+				"MIMAX(hydrogen)": "86.15",
+				"MIMAX(hydrogen)-attach": {
+					"count": "12572"
+				},
+				"RedmiNote3(hennessy)": "86.12",
+				"RedmiNote3(hennessy)-attach": {
+					"count": "36589"
+				},
+				"2014813(HM2014813)": "106.12",
+				"2014813(HM2014813)-attach": {
+					"count": "11061"
+				},
+				"MI5s(capricorn)": "77.75",
+				"MI5s(capricorn)-attach": {
+					"count": "14557"
+				},
+				"RedmiNote4X(mido)": "83.83",
+				"RedmiNote4X(mido)-attach": {
+					"count": "1005"
+				},
+				"MI4S(aqua)": "199.97",
+				"MI4S(aqua)-attach": {
+					"count": "340"
+				},
+				"MI4LTE(cancro)": "84.03",
+				"MI4LTE(cancro)-attach": {
+					"count": "76450"
+				},
+				"MiNote2(scorpio)": "58.58",
+				"MiNote2(scorpio)-attach": {
+					"count": "3651"
+				},
+				"Redmi3X(land)": "96.9",
+				"Redmi3X(land)-attach": {
+					"count": "3288"
+				},
+				"Mi-4c(libra)": "127.66",
+				"Mi-4c(libra)-attach": {
+					"count": "5645"
+				},
+				"MI3C(cancro)": "77.15",
+				"MI3C(cancro)-attach": {
+					"count": "15278"
+				},
+				"Redmi3S(land)": "94.94",
+				"Redmi3S(land)-attach": {
+					"count": "15942"
+				},
+				"MI5(gemini)": "89.87",
+				"MI5(gemini)-attach": {
+					"count": "58704"
+				},
+				"Redmi4A(rolex)": "92.89",
+				"Redmi4A(rolex)-attach": {
+					"count": "1452"
+				},
+				"MIX(lithium)": "60.13",
+				"MIX(lithium)-attach": {
+					"count": "2660"
+				},
+				"MI2S(aries)": "85.0",
+				"MI2S(aries)-attach": {
+					"count": "31955"
+				},
+				"Redmi3(ido)": "99.31",
+				"Redmi3(ido)-attach": {
+					"count": "20544"
+				},
+				"RedmiNote2(hermes)": "84.46",
+				"RedmiNote2(hermes)-attach": {
+					"count": "47806"
+				},
+				"MIMAX(helium)": "80.84",
+				"MIMAX(helium)-attach": {
+					"count": "7695"
+				},
+				"MINOTEPro(leo)": "115.88",
+				"MINOTEPro(leo)-attach": {
+					"count": "3099"
+				},
+				"MI2SC(aries)": "86.33",
+				"MI2SC(aries)-attach": {
+					"count": "18786"
+				},
+				"RedmiPro(omega)": "91.43",
+				"RedmiPro(omega)-attach": {
+					"count": "6723"
+				},
+				"MI2(aries)": "94.09",
+				"MI2(aries)-attach": {
+					"count": "13689"
+				},
+				"RedmiNote3(kenzo)": "92.52",
+				"RedmiNote3(kenzo)-attach": {
+					"count": "38808"
+				},
+				"Redmi4(prada)": "119.72",
+				"Redmi4(prada)-attach": {
+					"count": "509"
+				},
+				"MI3W(cancro)": "78.22",
+				"MI3W(cancro)-attach": {
+					"count": "20029"
+				},
+				"Redmi4(markw)": "79.07",
+				"Redmi4(markw)-attach": {
+					"count": "5684"
+				}
+			}
 		}],
-		"models": ["AVG_CATON_TIME"]
+		"models": ["MI4C(cancro)", "MINOTELTE(virgo)", "RedmiNote4(nikel)", "MI4W(cancro)", "MI5sPlus(natrium)", "MIMAX(hydrogen)", "RedmiNote3(hennessy)", "2014813(HM2014813)", "MI4S(aqua)", "RedmiNote4X(mido)", "MI5s(capricorn)", "MI4LTE(cancro)", "MiNote2(scorpio)", "Redmi3X(land)", "Mi-4c(libra)", "MI3C(cancro)", "Redmi3S(land)", "MI5(gemini)", "Redmi4A(rolex)", "MIX(lithium)", "MI2S(aries)", "Redmi3(ido)", "RedmiNote2(hermes)", "MINOTEPro(leo)", "MIMAX(helium)", "RedmiPro(omega)", "MI2(aries)", "MI2SC(aries)", "RedmiNote3(kenzo)", "Redmi4(prada)", "MI3W(cancro)", "Redmi4(markw)"]
 	},
 	"desc": "get avg success"
 }

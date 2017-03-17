@@ -6,7 +6,10 @@
 			"worst_attach": {
 				"test": 123
 			},
+			"id|1-1000": 1,
+			"detail":{},
 			"worst|1-100": 1,
+			"url|1-12":"sdf",
 			"bad|1-100": 1,
 			"name|1-2": "@string('lower', 5)"
 		}

@@ -1,17 +1,67 @@
 {
-	"data": {
-		"indexs": ["全部机型版本"],
-		"resources": [{
-			"全部机型版本-attach": {
-				"nextUrl": "/mqsas/excp/dashboard/category.do?bigCategory=restart",
-				"hasDetail": "true",
-				"isLast": true,
-				"dgt":"dsafasdf",
-				"summary": "xiongmeiqiang"
-			},
-			"name": "死机重启",
-			"全部机型版本": 11873
-		}]
-	},
-	"status": "true"
+  "data": {
+    "indexs": [
+      "7.2.24",
+      "7.3.2"
+    ],
+    "resources": [
+      {
+        "7.2.24": "0.20",
+        "name": "SystemServer_JavaCrash",
+        "7.2.24-attach": {
+          "show": {
+            "出现次数": 4475,
+            "父类别出现次数": 22515
+          },
+          "conf": {
+            "nextUrl": "/mqsas/excp/dashboard/topkcases.do?bigCategory=restart&category=SS-JE",
+            "hasDetail": "true"
+          }
+        }
+      },
+      {
+        "7.2.24": "0.00",
+        "name": "SystemServer_NativeCrash",
+        "7.2.24-attach": {
+          "show": {
+            "出现次数": 80,
+            "父类别出现次数": 22515
+          },
+          "conf": {
+            "nextUrl": "/mqsas/excp/dashboard/topkcases.do?bigCategory=restart&category=SS-NE",
+            "hasDetail": "true"
+          }
+        }
+      },
+      {
+        "7.2.24": "0.80",
+        "name": "Watchdog",
+        "7.2.24-attach": {
+          "show": {
+            "出现次数": 17945,
+            "父类别出现次数": 22515
+          },
+          "conf": {
+            "nextUrl": "/mqsas/excp/dashboard/topkcases.do?bigCategory=restart&category=Watchdog",
+            "hasDetail": "true"
+          }
+        }
+      },
+      {
+        "7.2.24": "0.00",
+        "name": "Zygote_NativeCrash",
+        "7.2.24-attach": {
+          "show": {
+            "出现次数": 15,
+            "父类别出现次数": 22515
+          },
+          "conf": {
+            "nextUrl": "/mqsas/excp/dashboard/topkcases.do?bigCategory=restart&category=Zygote-NE",
+            "hasDetail": "true"
+          }
+        }
+      }
+    ]
+  },
+  "status": "true"
 }

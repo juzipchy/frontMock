@@ -1,0 +1,77 @@
+{
+	"data": {
+		"indexs": ["7.2.24", "7.3.2"],
+		"resources": [{
+			"7.2.24": "0.28",
+			"name": "",
+			"7.2.24-attach": {
+				"show": {
+					"出现次数": 1270,
+					"父类别出现次数": 4475
+				},
+				"conf": {
+					"summary": "java.util.NoSuchElementException--Death link does not exist--",
+					"isLast": "true",
+					"dgt": "da4c9367a475ba688d9de74548f6d02a"
+				}
+			}
+		}, {
+			"7.2.24": "0.26",
+			"name": "",
+			"7.2.24-attach": {
+				"show": {
+					"出现次数": 1170,
+					"父类别出现次数": 4475
+				},
+				"conf": {
+					"summary": "java.util.concurrent.TimeoutException--android.os.BinderProxy.finalize() timed out after 10 seconds--",
+					"isLast": "true",
+					"dgt": "1ddf8ad3254d4deb39e3c274e4ec71a1"
+				}
+			}
+		}, {
+			"7.2.24": "0.06",
+			"name": "",
+			"7.2.24-attach": {
+				"show": {
+					"出现次数": 265,
+					"父类别出现次数": 4475
+				},
+				"conf": {
+					"summary": "java.lang.OutOfMemoryError--Could not allocate JNI Env--",
+					"isLast": "true",
+					"dgt": "5f0c6a7500fb146ebc040eea19bbd727"
+				}
+			}
+		}, {
+			"7.2.24": "0.03",
+			"name": "",
+			"7.2.24-attach": {
+				"show": {
+					"出现次数": 130,
+					"父类别出现次数": 4475
+				},
+				"conf": {
+					"summary": "java.lang.ClassNotFoundException--Didn't find class \"mqq.app.Constants$LogoutReason\" on path: DexPathList[[directory \".\"],nativeLibraryDirectories=[/vendor/lib, /system/lib]]--",
+					"isLast": "true",
+					"dgt": "3add17fd0dc3b24d6d76d5eb78b54d8f"
+				}
+			}
+		}, {
+			"7.2.24": "0.02",
+			"name": "",
+			"7.2.24-attach": {
+				"show": {
+					"出现次数": 90,
+					"父类别出现次数": 4475
+				},
+				"conf": {
+					"summary": "java.util.concurrent.TimeoutException--android.os.BinderProxy.finalize() timed out after 20 seconds--",
+					"isLast": "true",
+					"dgt": "570a0c1d2b020ce165d93296fe605fae"
+				}
+			}
+		}]
+	},
+	"status": "true"
+}

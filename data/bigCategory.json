@@ -1,27 +1,18 @@
 {
 	"data": {
-		"indexs": ["MI4C(cancro)", "MI4LTE(cancro)"],
-		"resources|2": [{
-			"MI4C(cancro)": "0.67",
-			"name": "",
-			"MI4C(cancro)-attach": {
-				"summary": "HeapTaskDaemon  >>> zygote <<<--11 (SIGSEGV)--1 (SEGV_MAPERR)--0x100--    #00 pc 0032f57e  /system/lib/libart.so (_ZN3art7Runtime19VisitNonThreadRootsEPNS_11RootVisitorE+5)    #01 pc 001a19f3  /system/lib/libart.so (_ZN3art2gc9collector9MarkSweep12MarkingPhaseEv+122)--",
-				"isLast": "true",
-				"dgt": "d41d8cd98f00b204e9800998ecf8427e"
-			},
-			"MI4LTE(cancro)": "0.02",
-			"MI4LTE(cancro)-attach": {
-				"summary": "HeapTaskDaemon  >>> zygote <<<--11 (SIGSEGV)--1 (SEGV_MAPERR)--0x100--    #00 pc 0032f57e  /system/lib/libart.so (_ZN3art7Runtime19VisitNonThreadRootsEPNS_11RootVisitorE+5)    #01 pc 001a19f3  /system/lib/libart.so (_ZN3art2gc9collector9MarkSweep12MarkingPhaseEv+122)--",
-				"isLast": "true",
-				"dgt": "d41d8cd98f00b204e9800998ecf8427e"
-			}
-		}, {
-			"MI4C(cancro)": "0.33",
-			"name": "",
-			"MI4C(cancro)-attach": {
-				"summary": "HeapTaskDaemon  >>> zygote <<<--4 (SIGILL)--1 (ILL_ILLOPC)--0xb4808bfe--    #00 pc 001b1bfe  /system/lib/libart.so (_ZN3art2gc4Heap18GrowForUtilizationEPNS0_9collector16GarbageCollectorEy+349)    #01 pc 001bb001  /system/lib/libart.so (_ZN3art2gc4Heap22CollectGarbageInternalENS0_9collector6GcTypeENS0_7GcCauseEb+1564)--",
-				"isLast": "true",
-				"dgt": "d41d8cd98f00b204e9800998ecf8427e"
+		"indexs": ["7.2.24", "7.3.2"],
+		"resources": [{
+			"7.2.24": "0.00",
+			"name": "死机重启",
+			"7.2.24-attach": {
+				"show": {
+					"升级人数": 0,
+					"出现次数": 22515
+				},
+				"conf": {
+					"nextUrl": "/mqsas/excp/dashboard/category.do?bigCategory=restart",
+					"hasDetail": "true"
+				}
 			}
 		}]
 	},

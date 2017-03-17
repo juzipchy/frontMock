@@ -1219,7 +1219,19 @@
 			},
 			"x": ""
 		}],
-		"models": ["2014813(HM2014813)", "MI2(aries)", "MI2S(aries)", "MI2SC(aries)", "MI3C(cancro)", "MI3W(cancro)", "MI4C(cancro)", "MI4LTE(cancro)", "MI4W(cancro)", "MI5(gemini)", "MI5s(capricorn)", "MI5sPlus(natrium)", "MIMAX(helium)", "MIMAX(hydrogen)", "MINOTELTE(virgo)", "MIX(lithium)", "MiNote2(scorpio)", "Redmi3(ido)", "Redmi3S(land)", "Redmi3X(land)", "Redmi4(markw)", "Redmi4(prada)", "Redmi4A(rolex)", "RedmiNote2(hermes)", "RedmiNote3(hennessy)", "RedmiNote3(kenzo)", "RedmiNote4(nikel)", "RedmiPro(omega)"]
+		"models": ["2014813(HM2014813)", "MI2(aries)", "MI2S(aries)", "MI2SC(aries)", "MI3C(cancro)", "MI3W(cancro)", "MI4C(cancro)", "MI4LTE(cancro)", "MI4W(cancro)", "MI5(gemini)", "MI5s(capricorn)", "MI5sPlus(natrium)", "MIMAX(helium)", "MIMAX(hydrogen)", "MINOTELTE(virgo)", "MIX(lithium)", "MiNote2(scorpio)", "Redmi3(ido)", "Redmi3S(land)", "Redmi3X(land)", "Redmi4(markw)", "Redmi4(prada)", "Redmi4A(rolex)", "RedmiNote2(hermes)", "RedmiNote3(hennessy)", "RedmiNote3(kenzo)", "RedmiNote4(nikel)", "RedmiPro(omega)"],
+		"imeiCount": {
+		    "2014813(HM2014813)": "11565",
+		    "MI2(aries)": "13993",
+		    "MI2S(aries)": "32527",
+		    "MI2SC(aries)": "19289"
+		},
+		"version":{
+		    "2014813(HM2014813)": "7.2.8",
+		    "MI2(aries)": "7.3.6",
+		    "MI2S(aries)": "7.3.4",
+		    "MI2SC(aries)": "7.3.2"
+		}
 	},
 	"desc": "all status success"
 }
