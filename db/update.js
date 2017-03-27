@@ -1,12 +1,23 @@
-var updateDocument = function(db, callback) {
-  // Get the documents collection 
-  var collection = db.collection('documents');
-  // Update document where a is 2, set b equal to 1 
-  collection.updateOne({ a : 2 }
-    , { $set: { b : 1 } }, function(err, result) {
-    assert.equal(err, null);
-    assert.equal(1, result.result.n);
-    console.log("Updated the document with the field a equal to 2");
-    callback(result);
-  });  
+
+const connectToDb = require('./index'),
+  assert = require('assert')
+
+
+function update(query={}, updataData={}, callback = (data) => {}, name = "documents") {
+
+  connectToDb(function(db) {
+    // Get the documents collection 
+    var collection = db.collection(name);
+    // Insert some documents 
+    collection.updateOne(query, { $set: updataData}, function(err, result) {
+      assert.equal(err, null);
+      assert.equal(1, result.result.n);
+      console.log("Updated the document with the field a equal to 2");
+      db.close();
+      callback(result);
+    });
+  });
 }
+
+
+module.exports = update;

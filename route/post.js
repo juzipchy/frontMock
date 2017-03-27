@@ -1,10 +1,23 @@
 const posts = {
-	'/mqsas/mqsasResults.do':'mqsasResults',
-	'/test1/test':'test',
-	'/mqsas/test1':'test1',
-	'/mqsas/upload':'test1',	
-	'/knowledge/updateError.do':'updateError',
-	'/mqsasABTest/compareResult.do': 'compareResult'
+	'/mqsas/mqsasResults.do': {
+		data: 'mqsasResults',
+		query:['a', 'b']
+	},
+	'/test1/test': {
+		data: 'test'
+	},
+	'/mqsas/test1': {
+		data: 'test1'
+	},
+	'/mqsas/upload': {
+		data: 'test1'
+	},
+	'/knowledge/updateError.do': {
+		data: 'updateError'
+	},
+	'/mqsasABTest/compareResult.do': {
+		data: 'compareResult'
+	},
 }
 
-module.exports =  posts;
+module.exports = posts;

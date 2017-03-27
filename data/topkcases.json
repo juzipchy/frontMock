@@ -1,76 +1,76 @@
 {
 	"data": {
-		"indexs": ["7.2.24", "7.3.2"],
+		"indexs": ["MI5(gemini)"],
 		"resources": [{
-			"7.2.24": "0.28",
-			"name": "",
-			"7.2.24-attach": {
+			"MI5(gemini)-attach": {
 				"show": {
-					"出现次数": 1270,
-					"父类别出现次数": 4475
+					"summary": "PowerManagerSer--system_server--7 (SIGBUS)--1 (BUS_ADRALN)--0x1-- <unknown>",
+					"SystemServer_NativeCrash出现次数": 429,
+					"出现次数": 45
 				},
 				"conf": {
-					"summary": "java.util.NoSuchElementException--Death link does not exist--",
 					"isLast": "true",
-					"dgt": "da4c9367a475ba688d9de74548f6d02a"
+					"dgt": "0d2fb69f616f0f4c3651fa1354bb1934"
 				}
-			}
+			},
+			"name": "0d2fb69f616f0f4c3651fa1354bb1934||PowerManagerSer--system_server--7 (SIGBUS)--1 (BUS_ADRALN)--0x1-- <unknown>",
+			"MI5(gemini)": "0.10"
 		}, {
-			"7.2.24": "0.26",
-			"name": "",
-			"7.2.24-attach": {
+			"MI5(gemini)-attach": {
 				"show": {
-					"出现次数": 1170,
-					"父类别出现次数": 4475
+					"summary": "Binder--system_server--6 (SIGABRT)---6 (SI_TKILL)-- /system/lib64/libc.so (tgkill+8) /system/lib64/libc.so (pthread_kill+64)",
+					"SystemServer_NativeCrash出现次数": 429,
+					"出现次数": 39
 				},
 				"conf": {
-					"summary": "java.util.concurrent.TimeoutException--android.os.BinderProxy.finalize() timed out after 10 seconds--",
 					"isLast": "true",
-					"dgt": "1ddf8ad3254d4deb39e3c274e4ec71a1"
+					"dgt": "19b5b1fe136dc56f6f417d806db29158"
 				}
-			}
+			},
+			"name": "19b5b1fe136dc56f6f417d806db29158||Binder--system_server--6 (SIGABRT)---6 (SI_TKILL)-- /system/lib64/libc.so (tgkill+8) /system/lib64/libc.so (pthread_kill+64)",
+			"MI5(gemini)": "0.09"
 		}, {
-			"7.2.24": "0.06",
-			"name": "",
-			"7.2.24-attach": {
+			"MI5(gemini)-attach": {
 				"show": {
-					"出现次数": 265,
-					"父类别出现次数": 4475
+					"summary": "HeapTaskDaemon--system_server--6 (SIGABRT)---6 (SI_TKILL)--Abort message: 'stack corruption detected'",
+					"SystemServer_NativeCrash出现次数": 429,
+					"出现次数": 24
 				},
 				"conf": {
-					"summary": "java.lang.OutOfMemoryError--Could not allocate JNI Env--",
 					"isLast": "true",
-					"dgt": "5f0c6a7500fb146ebc040eea19bbd727"
+					"dgt": "727e568a9feec8157071b410d5451c0c"
 				}
-			}
+			},
+			"name": "727e568a9feec8157071b410d5451c0c||HeapTaskDaemon--system_server--6 (SIGABRT)---6 (SI_TKILL)--Abort message: 'stack corruption detected'",
+			"MI5(gemini)": "0.06"
 		}, {
-			"7.2.24": "0.03",
-			"name": "",
-			"7.2.24-attach": {
+			"MI5(gemini)-attach": {
 				"show": {
-					"出现次数": 130,
-					"父类别出现次数": 4475
+					"summary": "system_server--system_server--7 (SIGBUS)--1 (BUS_ADRALN)--0x1-- <unknown>",
+					"SystemServer_NativeCrash出现次数": 429,
+					"出现次数": 13
 				},
 				"conf": {
-					"summary": "java.lang.ClassNotFoundException--Didn't find class \"mqq.app.Constants$LogoutReason\" on path: DexPathList[[directory \".\"],nativeLibraryDirectories=[/vendor/lib, /system/lib]]--",
 					"isLast": "true",
-					"dgt": "3add17fd0dc3b24d6d76d5eb78b54d8f"
+					"dgt": "0d2fb69f616f0f4c3651fa1354bb1934"
 				}
-			}
+			},
+			"name": "0d2fb69f616f0f4c3651fa1354bb1934||system_server--system_server--7 (SIGBUS)--1 (BUS_ADRALN)--0x1-- <unknown>",
+			"MI5(gemini)": "0.03"
 		}, {
-			"7.2.24": "0.02",
-			"name": "",
-			"7.2.24-attach": {
+			"MI5(gemini)-attach": {
 				"show": {
-					"出现次数": 90,
-					"父类别出现次数": 4475
+					"summary": "HeapTaskDaemon--system_server--6 (SIGABRT)---6 (SI_TKILL)--Abort message: 'stack corruption detected'",
+					"SystemServer_NativeCrash出现次数": 429,
+					"出现次数": 13
 				},
 				"conf": {
-					"summary": "java.util.concurrent.TimeoutException--android.os.BinderProxy.finalize() timed out after 20 seconds--",
 					"isLast": "true",
-					"dgt": "570a0c1d2b020ce165d93296fe605fae"
+					"dgt": "96d14a65efc6af993bfb95bbc3d705c0"
 				}
-			}
+			},
+			"name": "96d14a65efc6af993bfb95bbc3d705c0||HeapTaskDaemon--system_server--6 (SIGABRT)---6 (SI_TKILL)--Abort message: 'stack corruption detected'",
+			"MI5(gemini)": "0.03"
 		}]
 	},
 	"status": "true"

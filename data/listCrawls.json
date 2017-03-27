@@ -1,0 +1,19 @@
+{
+    "data|15-30": [
+        {
+            "details": "@string",
+            "dgt": "@sting",
+            "id": "@id",
+            "insertTime": "@time",
+            "module": "",
+            "rType": "auto",
+            "status|1-4": 1,
+            "summary": "ANR in com.tencent.mm-- ()--Broadcast of Intent { act=android.media.SCO_AUDIO_STATE_CHANGED flg=0x10000010 cmp=com.tencent.mm/.booter.BluetoothReceiver (has extras) }",
+            "type": "exp_anr",
+            "updateTime": "2017-03-18",
+            "urls": "sdfadf,asdfafd,asdf",
+            "whiteListId": 0
+        }
+    ],
+    "status": "true"
+}

@@ -9,40 +9,64 @@ const Mock = require('mockjs'),
 	actionRoutes = require('./route/actionroutes'),
 	query = require('./db/query'),
 	app = express();
-	app.use(delay(200, 1000))
+	app.use(delay(1,1000))
 
-	query({}, function(data=[]){
-		data.map((item)=>{
-			if(item.type === 'get'){
-			    app.get(item.path , function(req, res) {
-			    	query({path: item.path, type: 'get'} , function(data={}){
-			    		data = data[0] || {};
-			        	var text = Mock.mock(data.results)
-			        	res.send(text);
-		        	});
-			    });
-			}
-			if(item.type === 'post'){
-			    app.post(item.path , function(req, res) {
-			    	query({path: item.path, type: 'get'} , function(data={}){
-			    		data = data[0] || {};
-			        	var text = Mock.mock(data.results)
-			        	res.send(text);
-		        	});
-			    });
-			}
-		})
+	// query({}, function(data=[]){
+	// 	data.map((item)=>{
+	// 		if(item.type === 'get'){
+	// 		    app.get(item.path , function(req, res) {
+	// 		    	query({path: item.path, type: 'get'} , function(data={}){
+	// 		    		data = data[0] || {};
+	// 		        	var text = Mock.mock(data.results)
+	// 		        	res.send(text);
+	// 	        	});
+	// 		    });
+	// 		}
+	// 		if(item.type === 'post'){
+	// 		    app.post(item.path , function(req, res) {
+	// 		    	query({path: item.path, type: 'get'} , function(data={}){
+	// 		    		data = data[0] || {};
+	// 		        	var text = Mock.mock(data.results)
+	// 		        	res.send(text);
+	// 	        	});
+	// 		    });
+	// 		}
+	// 	})
+	// });
 
+	_.each(posts, function (value, name) {
+	    app.post(name , function(req, res) {
+	    	let dataFormatted = JSON.parse(fs.readFileSync(`./data/${value.data}.json`));
+	        var text = Mock.mock(dataFormatted)
+	        res.send(text);
+	    });
+	})
+	_.each(gets, function (value, name) {
+		    app.get(name , function(req, res) {
+		    	let dataFormatted = JSON.parse(fs.readFileSync(`./data/${value.data}.json`));
+		        var text = Mock.mock(dataFormatted)
+		        res.send(text);
+	    });
 	});
 
 	_.map(actionRoutes, (value, name)=>{
 		app.get(name , function(req, res) {
 			const action = require('./actions/' + value)
-	        try{
-	        	res.send(sendSuccess(action()));
-	        }catch(e){
-	        	res.send(sendError('test'));
-	        }
+			if(typeof action === 'function') {
+				res.send(sendSuccess(action()));
+			}else {
+		        try{
+		        	action.subscribe((data)=>{
+	        			res.send(sendSuccess(data));
+	        		}, (e)=>{
+	        			res.send(sendError(e));
+	        		}, ()=>{
+	        			console.log('done')
+	        		});
+		        }catch(e){
+		        	res.send(sendError('done'));
+		        }
+			}
         });
 	});
 
@@ -51,7 +75,7 @@ app.listen(3001, function (err, result){
     if(err) return console.log(err);
     console.log('mock listen at 3001')
 })
-
+ 
 module.exports = app;
 
 function sendSuccess(data={}) {
