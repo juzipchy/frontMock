@@ -6,11 +6,13 @@ const Mock = require('mockjs'),
 	gets = require('./route/get'),
 	express = require('express'),
 	fs = require('fs'),
+	cors = require('cors'),
 	actionRoutes = require('./route/actionroutes'),
 	query = require('./db/query'),
 	app = express();
-	app.use(delay(1,1000))
-
+	
+	app.use('/public',express.static('dist'))
+	app.use(cors())
 	// query({}, function(data=[]){
 	// 	data.map((item)=>{
 	// 		if(item.type === 'get'){
@@ -33,7 +35,15 @@ const Mock = require('mockjs'),
 	// 		}
 	// 	})
 	// });
-
+	_.map(actionRoutes, (value, name)=>{
+		app.get(name , function(req, res, next) {
+			const action = require('./actions/' + value)
+			action(req, res, next);
+        }, function(req, res, next){
+        	console.log(req, 'next')
+        });
+	});
+	app.use(delay(1,1000))
 	_.each(posts, function (value, name) {
 	    app.post(name , function(req, res) {
 	    	let dataFormatted = JSON.parse(fs.readFileSync(`./data/${value.data}.json`));
@@ -49,26 +59,7 @@ const Mock = require('mockjs'),
 	    });
 	});
 
-	_.map(actionRoutes, (value, name)=>{
-		app.get(name , function(req, res) {
-			const action = require('./actions/' + value)
-			if(typeof action === 'function') {
-				res.send(sendSuccess(action()));
-			}else {
-		        try{
-		        	action.subscribe((data)=>{
-	        			res.send(sendSuccess(data));
-	        		}, (e)=>{
-	        			res.send(sendError(e));
-	        		}, ()=>{
-	        			console.log('done')
-	        		});
-		        }catch(e){
-		        	res.send(sendError('done'));
-		        }
-			}
-        });
-	});
+	
 
 // app.use(router)
 app.listen(3001, function (err, result){

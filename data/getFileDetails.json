@@ -1,0 +1,17 @@
+{
+    "data": [
+        {
+            "fName": "Settings.apk",
+            "fPartition": "system",
+            "fProperties": "apk",
+            "fSize": "25M"
+        },
+        {
+            "fName": "cust.prop",
+            "fPartition": "cust",
+            "fProperties": "prop",
+            "fSize": "1M"
+        }
+    ],
+    "status": "true"
+}

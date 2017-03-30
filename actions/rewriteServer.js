@@ -1,5 +1,6 @@
 var fs = require('fs');
 var shell = require('shelljs');
+var colors = require('../conf/colors')
 
 let restart = 'echo _12345679 | sudo -S nginx -s reload',
 	open = 'echo _12345679 | sudo -S nginx'
@@ -13,7 +14,7 @@ let servers = [
 				proxy_pass: 'http://127.0.0.1:3000'
 			},{
 				path: '~ ^/(mqsas|mqsasdata|mqsasABTest|knowledge|whiteList|mqsasback|test1|myDeviceClound)/',
-				using: 'localhost',//
+				using: 'mqsas',//
 				proxy_passes: {
 					liuxiwen: 'http://10.232.33.9:8082',
 					localhost: 'http://127.0.0.1:3001',
@@ -27,7 +28,7 @@ let servers = [
 	 }
 ]
 
-function  assemble(servers=[]) {
+function  assemble(servers=[], using="mqsas") {
 	return servers.map((server)=>{ //servers解析
 		let locations = server.locations || [];
 
@@ -38,10 +39,9 @@ server {
 
 	${
 		locations.map((location)=>{//locations解析
-			
 			let proxy_passes = location.proxy_passes || {};
-			let proxy_pass = proxy_passes[location.using] || location.proxy_pass;
-
+			let proxy_pass = proxy_passes[using] || location.proxy_pass;
+			console.log(`${location.path} `.debug +`is using: ` + `${using} -- ${proxy_pass}`.warn)
 			return `
 	location  ${location.path} {
 		client_max_body_size    1000m;
@@ -58,13 +58,20 @@ server {
 }
 
 function exec(command='say hello') {
-	shell.exec(command)
+	return shell.exec(command).code;
 }
-
-module.exports = function rewriteServer(argument) {
-	fs.writeFile("server", assemble(servers), (err, result)=>{
-		console.log('restart ngix')
-		exec(restart);
+exports.route = '/action/rewriteServer'
+module.exports = function rewriteServer(req, res, next) {
+	let query = req.query;
+	let proxy_pass = query.using || 'mqsas'
+	fs.writeFile("server", assemble(servers, proxy_pass), (err, result)=>{
+		console.log('restart ngix'.error)
+		let resultCode = exec(restart);
+		if(resultCode !== 0) {
+			res.send({status: false})
+		}else {
+			res.send({status: true})
+		}
 	});
 	return ;
 }

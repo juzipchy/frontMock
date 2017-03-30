@@ -1,0 +1,25 @@
+{
+    "data": [
+        {
+            "custFree": "116",
+            "custTotal": "495",
+            "dataFree": "9318",
+            "dataTotal": "11980",
+            "deviceName": "ido",
+            "sysFree": "151",
+            "sysTotal": "1945",
+            "version": "7.2.7"
+        },
+        {
+            "custFree": "16",
+            "custTotal": "495",
+            "dataFree": "7782",
+            "dataTotal": "10547",
+            "deviceName": "kenzo",
+            "sysFree": "341",
+            "sysTotal": "2457",
+            "version": "7.2.7"
+        }
+    ],
+    "status": "true"
+}

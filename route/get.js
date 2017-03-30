@@ -145,6 +145,18 @@ const gets = {
 	},
 	"/mqsas/autoCrawl/batchTrigger.do": {
 		data: 'batchTrigger'
+	},
+	"/mqsas/getURLTestData": {
+		data: 'URLTestData'
+	},
+	"/mqsas/partition/getPartitionSpace.do":{
+		data: 'getPartitionSpace'
+	},
+	'/mqsas/partition/compareResult.do':{
+		data: 'partitioncompareResult'
+	},
+	"/mqsas/partition/getFileDetails.do":{
+		data: 'getFileDetails'
 	}
 }
 module.exports = gets;

@@ -1,0 +1,45 @@
+{
+	"data": {
+		"changed": {
+			"changedSize": "12M",
+			"count": 23,
+			"file": [{
+				"fName": "Setting.apk",
+				"fPartition": "system",
+				"fProperties": "apk",
+				"fSize": "25M"
+			}]
+		},
+		"new": {
+			"changedSize": "1231M",
+			"count": 123,
+			"files": [{
+				"fName": "Settings.apk",
+				"fPartition": "system",
+				"fProperties": "apk",
+				"fSize": "25M"
+			}]
+		},
+		"reduced": {
+			"changedSize": "123M",
+			"count": 256,
+			"files": [{
+				"fName": "cust.prop",
+				"fPartition": "cust",
+				"fProperties": "prop",
+				"fSize": "1M"
+			}]
+		},
+		"unchanged": {
+			"changedSize": "121M",
+			"count": 6,
+			"files": [{
+				"fName": "custs.prop",
+				"fPartition": "cust",
+				"fProperties": "prop",
+				"fSize": "1M"
+			}]
+		}
+	},
+	"status": "true"
+}
