@@ -7,7 +7,7 @@ let restart = 'echo _12345679 | sudo -S nginx -s reload',
 
 let servers = [
 	{
-		listen: 80,
+		listen: 8081,
 		locations: [
 			{
 				path: '/',
