@@ -1,0 +1,89 @@
+<html>
+	<head>
+		<link rel="shortcut icon" href="./static/favicon.ico">
+		<title>工具</title>
+	</head>
+	<body>
+		<style>
+			button{
+				width: 150px;
+				height: 48px;
+				background: white;
+				border: solid thin #bebebe;
+				cursor: pointer;
+			}
+			button.active{
+				background-color: #00bf67;
+				color: white;
+			}
+
+			div.line{
+				margin: 20px 0;
+				border-bottom: solid thin #ebebeb;
+			}
+			.mock > div{
+				margin:10px;
+
+			}
+			.mock input, .mock select{
+				width:300px;
+				height: 48px;
+			}
+
+			.mock textarea{
+				width: 300px;
+				height: 300px;
+			}
+		</style>
+	
+		<div class="line"></div>
+
+
+		<div class="mock" id="mock">
+			{{message}}
+			<div>URL: <input type="text" id="url"></div>
+			<div>
+				type: 
+				<select type="text" id="type"> 
+					<option value="GET">GET</option>
+					<option value="POST">POST</option>
+				 </select>
+			 </div>
+			<div>data: <textarea id="data"></textarea> </div>
+			<button id="createBtn">创建</button>
+		</div>
+
+
+		<div id="app-2">
+		  <span v-bind:title="message">
+		    鼠标悬停几秒钟查看此处动态绑定的提示信息！
+		  </span>
+		</div>
+		<script src="https://cdn.staticfile.org/vue/2.2.6/vue.js"></script>
+		<script>
+			
+
+			(function(){
+				const  mock = new Vue({
+					el: '#mock',
+					data: {
+						message:'test'
+					}
+				});
+
+				console.log(mock)
+			})()
+
+		</script>
+
+		<script>
+			var app2 = new Vue({
+			  el: '#app-2',
+			  data: {
+			    message: '页面加载于 ' + new Date()
+			  }
+			})
+		</script>
+	</body>
+</html>
+

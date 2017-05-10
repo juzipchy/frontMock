@@ -5,6 +5,8 @@ const fs = require('fs')
 
 const analysisDatas = [];
 
+
+
 function isBadRequest(data) {
   return data.httpStatus >= 400 || 
         data.status != data.successValue ||
@@ -26,26 +28,6 @@ function fetchAll(settings=[]){
 	
 }
 
-function handleSolved(data){
-	data.map((item)=>{
-		let setting = item;
-		if(item.type === 'GET') {
-			requst.get(item.url)
-				.query(item.params)
-				.end(function(err, res){
-					let analysisData = Object.assgin({}, setting);
-					analysisData.statusCode = res.statusCode; //http code
-
-					if(err) {
-
-					}else {
-						let resData = res.body;
-						analysisData.status = resData.status;
-					}
-				});
-		}
-	});
-}
 
 function writeFile(json={}){
 	fs.writeFile('../data/autoTestUrlResult.json',JSON.stringify(json), function(err){

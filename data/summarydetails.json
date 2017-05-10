@@ -1,0 +1,60 @@
+{
+	"data": {
+		"stability": [{
+			"restart": "2.00",
+			"restart-attach": {
+				"totalImeis": "15",
+				"totalExpCounts": "30"
+			},
+			"miuirestart": "0.64",
+			"miuirestart-attach": {
+				"totalImeis": "30",
+				"totalExpCounts": "19"
+			},
+			"nativerestart": "0.73",
+			"nativerestart-attach": {
+				"totalImeis": "15",
+				"totalExpCounts": "11"
+			},
+			"index": "7.3.21"
+		},{
+			"restart": "3.00",
+			"restart-attach": {
+				"totalImeis": "15",
+				"totalExpCounts": "30"
+			},
+			"miuirestart": "0.64",
+			"miuirestart-attach": {
+				"totalImeis": "30",
+				"totalExpCounts": "19"
+			},
+			"nativerestart": "0.73",
+			"nativerestart-attach": {
+				"totalImeis": "15",
+				"totalExpCounts": "11"
+			},
+			"index": "7.3.21"
+		},
+	{
+				"restart": "5.00",
+				"restart-attach": {
+					"totalImeis": "15",
+					"totalExpCounts": "30"
+				},
+				"miuirestart": "0.64",
+				"miuirestart-attach": {
+					"totalImeis": "30",
+					"totalExpCounts": "19"
+				},
+				"nativerestart": "0.73",
+				"nativerestart-attach": {
+					"totalImeis": "15",
+					"totalExpCounts": "11"
+				},
+				"index": "7.3.21"
+			}],
+		"indexes": ["nativerestart","restart"],
+		"type": "restart"
+	},
+	"status": "true"
+}

@@ -1,0 +1,25 @@
+{
+    "data": {
+        "type": "sci",
+        "stability|10": [
+            {
+                "MI5(gemini)|1-100": 1,
+                "MI5(gemini)-attach": {
+                    "totalImeis": "147370",
+                    "totalExpCounts": "2938293"
+                },
+                "MIX(lithium)|1-100": 1,
+                "MIX(lithium)-attach": {
+                    "totalImeis": "147370",
+                    "totalExpCounts": "2938293"
+                },
+                "index": "7.3.30"
+            }
+        ],
+        "indexes": [
+            "MIX(lithium)",
+            "MI5(gemini)"
+        ]
+    },
+    "status": "true"
+}

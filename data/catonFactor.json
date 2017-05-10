@@ -1,0 +1,25 @@
+{
+    "status": "true",
+    "data": {
+        "catonCount": [
+            {
+                "name": "主线程繁忙",
+                "count": 123
+            },
+            {
+                "name": "不可中断睡眠",
+                "count": 123
+            }
+        ],
+        "catonTime": [
+            {
+                "name": "主线程繁忙",
+                "time": 123
+            },
+            {
+                "name": "不可中断睡眠",
+                "time": 123
+            }
+        ]
+    }
+} 

@@ -1,7 +1,19 @@
-var schedule = require('node-schedule')
+const Rx = require('rxjs')
 
-var date = new Date(30, 28, 16);
- 
-var j = schedule.scheduleJob('/2 * * * * *', function(){
-  console.log(new Date());
+let observer = Rx.Observable.create(function (observer) {
+	let count = 1;
+	console.log(count)
+	setInterval(function(){
+		observer.next(++count)	
+	},1000)
+	
 });
+
+let a = observer.subscribe(function(data){
+	console.log(data);
+})
+
+let b = observer.subscribe(function(data){
+	console.log(data);
+	if(data==5) b.unsubscribe();
+})

@@ -1,0 +1,13 @@
+{
+	"data": [{
+		"Redmi3S(land)": "0.037",
+		"MI5(gemini)": "0.036",
+		"Redmi4(markw)": "0.027",
+		"RedmiNote3(kenzo)": "0.020",
+		"index": "7.3.2"
+	}, {
+		"MI4LTE(cancro)": "0.035",
+		"index": "7.3.6"
+	}],
+	"status": "true"
+}

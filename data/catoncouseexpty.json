@@ -1,0 +1,27 @@
+{
+    "status": "true",
+    "data": {
+        "app|5": [
+            {
+                "name": "com.andrioid.systemui",
+                "solve": 123,
+                "total": 321
+            },
+            {
+                "name": "com.andrioid",
+                "solve": 123,
+                "total": 423
+            }
+        ],
+        "severity|4": [
+            {
+                "name": "com.andrioid.systemui",
+                "value": 166
+            },
+            {
+                "name": "com.andrioid",
+                "value": 16
+            }
+        ]
+    }
+}

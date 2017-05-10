@@ -5,6 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "mongodb": "^2.2.24",
+    "nodemailer": "^4.0.0",
     "recharts": "^0.20.1"
   },
   "devDependencies": {

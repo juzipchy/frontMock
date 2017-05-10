@@ -1,0 +1,15 @@
+{
+    "status": "true",
+    "data": [
+        {
+            "name": "com.andrioid.systemui",
+            "total": 123,
+            "solved": 123
+        },
+        {
+            "name": "com.andrioid",
+            "solve": 123,
+            "solved": 123
+        }
+    ]
+}

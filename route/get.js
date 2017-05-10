@@ -17,8 +17,32 @@ const gets = {
 	'/mqsas/test1': {
 		data: 'test'
 	},
+	"/mqsas/otatime/getSucRateTrend.do": {
+		data: 'getSucRateTrend'
+	},
+	'/mqsas/otatime/getFailCauseByDevice.do':{
+		data: 'getFailCauseByDevice'
+	},
+	'/mqsas/caton/cause/app/expTy.do': {
+		data: 'catoncouseexpty'
+	},
+	'/mqsas/caton/cause/app/list.do':{
+		data: 'catoncouseexpty'
+	},
+	'/mqsas/caton/cause/expTy/list.do':{
+		data: 'catoncouseexptylist'
+	},
+	'/mqsas/caton/factor.do': {
+		data: 'catonFactor'
+	},
+	'/mqsas/exp/stability/summary.do': {
+		data: 'summary'
+	},
 	'/mqsas/performance/dropFrame/ringCmp.do': {
 		data: 'ringCmp'
+	},
+	'/mqsas/exp/stablility/summary/details.do': {
+		data: 'summarydetails'
 	},
 	'/mqsas/performance/dropFrame/allStatus.do': {
 		data: 'allStatus'
@@ -80,6 +104,9 @@ const gets = {
 	'/mqsas/performance/getModelFluencyRank.do':{
 		data: 'getModelFluencyRank'
 	},
+	'/mqsas/performance/dropFrame/cmpPercent.do': {
+		data: 'cmpPercent'
+	},
 	'/mqsas/excp/dashboard/allVersion.do': {
 		data: 'allVersion'
 	},
@@ -100,6 +127,9 @@ const gets = {
 	},
 	'/mqsas/otatime/getUpdateRate.do': {
 		data: 'getUpdateRate'
+	},
+	'/knowledge/details.do': {
+		data: 'knowledgedetails'
 	},
 	'/mqsas/otatime/getUpdateTime.do': {
 		data: 'getUpdateRate'
@@ -157,6 +187,9 @@ const gets = {
 	},
 	"/mqsas/partition/getFileDetails.do":{
 		data: 'getFileDetails'
+	},
+	"/mqsas/login.do":{
+		data: 'login'
 	}
 }
 module.exports = gets;

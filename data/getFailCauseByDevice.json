@@ -1,0 +1,12 @@
+{
+  "status": "true",
+  "data": [
+    {
+      "version": "7.5.4-7.5.4",
+      "totalCount": "84",
+      "failCount": "19",
+      "下载失败": 17,
+      "包的MD5不对": 2
+    }
+  ]
+}

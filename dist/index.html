@@ -1,5 +1,6 @@
 <html>
 	<head>
+		<link rel="shortcut icon" href="./static/favicon.ico">
 		<title>工具</title>
 	</head>
 	<body>
@@ -15,6 +16,24 @@
 				background-color: #00bf67;
 				color: white;
 			}
+
+			div.line{
+				margin: 20px 0;
+				border-bottom: solid thin #ebebeb;
+			}
+			.mock > div{
+				margin:10px;
+
+			}
+			.mock input, .mock select{
+				width:300px;
+				height: 48px;
+			}
+
+			.mock textarea{
+				width: 300px;
+				height: 300px;
+			}
 		</style>
 
 
@@ -26,25 +45,82 @@
 			<button>anqi</button>
 			<button>linlin</button>
 			<button>zhicai</button>
+			<button>zhangyang</button>
 		</div>
+
+	
+		<div class="line"></div>
+
+
+		<div class="mock" id="mock">
+			<div>URL: <input type="text" id="url" v-model.trim="url" v-on:change="check"></div>
+			<div>
+				type: 
+				<select type="text" id="type"  v-model="type" v-on:change="check"> 
+					<option value="GET">GET</option>
+					<option value="POST">POST</option>
+				 </select>
+			 </div>
+			<div>data: <textarea id="data"  v-model="data"></textarea> </div>
+			<button id="createBtn" v-on:click='createMock'>创建</button>
+		</div>
+
+
 		<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.js"></script>
+		<script src="https://cdn.staticfile.org/vue/2.2.6/vue.js"></script>
+		<script src="https://cdn.staticfile.org/superagent/3.5.2/superagent.min.js"></script>
 		<script>
-			$('.buttons button').on('click', function (e) {
-				$.ajax({
-					url:'/action/rewriteServer?using='+e.target.innerHTML,
-					type:'get',
-					success: function(res){
-						if(res.status){
-							$('.buttons button').removeClass('active')
-							$(e.target).addClass('active');
-						}else {
-							alert('失败')
+			window.request = new superagent.Request();
+			(function(){
+				$('.buttons button').on('click', function (e) {
+					$.ajax({
+						url:'/action/rewriteServer?using='+e.target.innerHTML,
+						type:'get',
+						success: function(res){
+							if(res.status){
+								$('.buttons button').removeClass('active')
+								$(e.target).addClass('active');
+							}else {
+								alert('失败')
+							}
+						}
+					})
+					
+				});
+			})();
+
+		</script>
+
+		<script>
+			(function(){
+
+				const  mock = new Vue({
+					el: '#mock',
+					data: {
+						type:'GET',
+						url:'',
+						data:''
+					},
+					methods: {
+						createMock: function(){
+							console.log(this.type)
+							console.log(this.url)
+							console.log(this.data)
+						},
+						check: function(){
+							$.ajax({
+								type: 'get',
+								url: `/action/checkurl?type=${this.type}&url=${this.url}`,
+								success(res){
+									if(res.status) {
+
+									}
+								}
+							})
 						}
 					}
-				})
-				
-			});
-
+				});
+			})()
 		</script>
 	</body>
 </html>

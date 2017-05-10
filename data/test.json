@@ -11,7 +11,7 @@
 			"worst|1-100": 1,
 			"url|1-12":"sdf",
 			"bad|1-100": 1,
-			"name|1-2": "@string('lower', 5)"
+			"name|1-2": "@string('lower', 20)"
 		}
 	],
 	"status": "true"

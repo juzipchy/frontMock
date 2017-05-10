@@ -1,0 +1,52 @@
+<html>
+	<head>
+		<link rel="shortcut icon" href="./static/favicon.ico">
+		<title>工具</title>
+	</head>
+	<body>
+		<style>
+			button{
+				width: 150px;
+				height: 48px;
+				background: white;
+				border: solid thin #bebebe;
+				cursor: pointer;
+			}
+			button.active{
+				background-color: #00bf67;
+				color: white;
+			}
+		</style>
+
+
+		<h2>选择proxy_pass</h2>
+		<div class="buttons">
+			<button>mqsas</button>
+			<button>localhost</button>
+			<button>liuxiwen</button>
+			<button>anqi</button>
+			<button>linlin</button>
+			<button>zhicai</button>
+		</div>
+		<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.js"></script>
+		<script>
+			$('.buttons button').on('click', function (e) {
+				$.ajax({
+					url:'/action/rewriteServer?using='+e.target.innerHTML,
+					type:'get',
+					success: function(res){
+						if(res.status){
+							$('.buttons button').removeClass('active')
+							$(e.target).addClass('active');
+						}else {
+							alert('失败')
+						}
+					}
+				})
+				
+			});
+
+		</script>
+	</body>
+</html>
+
