@@ -1,0 +1,39 @@
+{
+"status": "true",
+"data": {
+
+  "hot": [
+  {
+  "MI4C(cancro)": "2.00",
+  "index": "7.2.16"
+  },
+  {
+  "MI4LTE(cancro)": "4.00",
+  "index": "7.2.9"
+  },
+  {
+  "MI4LTE(cancro)": "1.00",
+  "MI4C(cancro)": "4.00",
+  "index": "7.2.24",
+  "MI4S(aqua)": "2.00"
+  }
+  ],
+  "cold": [
+  {
+  "MI4C(cancro)": "2.00",
+  "index": "7.2.16"
+  },
+  {
+  "MI4LTE(cancro)": "4.00",
+  "index": "7.2.9"
+  },
+  {
+  "MI4LTE(cancro)": "2.00",
+  "MI4C(cancro)": "4.00",
+  "index": "7.2.24",
+  "MI4S(aqua)": "4.00"
+  }
+  ],
+  "indexes": ""
+}
+}

@@ -10,7 +10,7 @@ const Mock = require('mockjs'),
 	actionRoutes = require('./route/actionroutes'),
 	query = require('./db/query'),
 	app = express();
-	
+
 	app.use('/public',express.static('dist'))
 	app.use(cors())
 	// query({}, function(data=[]){
@@ -47,26 +47,42 @@ const Mock = require('mockjs'),
 	_.each(posts, function (value, name) {
 	    app.post(name , function(req, res) {
 	    	let dataFormatted = JSON.parse(fs.readFileSync(`./data/${value.data}.json`));
-	        var text = Mock.mock(dataFormatted)
+				let text ;
+					try {
+						text = Mock.mock(dataFormatted)
+
+					} catch (e) {
+						text = dataFormatted;
+					} finally {
+
+					}
 	        res.send(text);
 	    });
 	})
 	_.each(gets, function (value, name) {
 		    app.get(name , function(req, res) {
 		    	let dataFormatted = JSON.parse(fs.readFileSync(`./data/${value.data}.json`));
-		        var text = Mock.mock(dataFormatted)
+					let text ;
+						try {
+							text = Mock.mock(dataFormatted)
+
+						} catch (e) {
+							text = dataFormatted;
+						} finally {
+
+						}
 		        res.send(text);
 	    });
 	});
 
-	
+
 
 // app.use(router)
 app.listen(3001, function (err, result){
     if(err) return console.log(err);
     console.log('mock listen at 3001')
 })
- 
+
 module.exports = app;
 
 function sendSuccess(data={}) {

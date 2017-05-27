@@ -3,6 +3,10 @@ const posts = {
 		data: 'mqsasResults',
 		query:['a', 'b']
 	},
+
+	'/mqsas/excp/addSolution.do': {
+		data: 'addsolution'
+	},
 	'/test1/test': {
 		data: 'test'
 	},

@@ -11,11 +11,38 @@ const gets = {
 	'/test1/test': {
 		data: 'test'
 	},
+	'/mqsas/jenkins/getOwnerCurrentTask.do':{
+		data: 'jenkinscurrenttask'
+	},
+	'/mqsas/excp/quickDown.do': {
+		data: 'quickdown'
+	},
+	'/mqsas/startTime/getStartTimeInfo.do':{
+		data:'getstarttimeinfo'
+	},
 	'/mqsas/startTime/getAvgStartTime.do': {
 		data: 'adTest'
 	},
+	'/mqsasABTest/validate.do': {
+		data: 'mqsasabtestvalidate'
+	},
+	'/mqsas/excp/crawlStatus.do': {
+		data: 'excpcrawlstatus'
+	},
+	'/mqsas/excp/newDetail.do':{
+		data: 'detaildata'
+	},
+	'/mqsas/excp/addSign.do': {
+		data: 'excpaddsign'
+	},
 	'/mqsas/test1': {
 		data: 'test'
+	},
+	'/mqsas/ops/cacheOp/getAllCacheModule.do': {
+		data: 'getallcachemodule'
+	},
+	'/mqsas/ops/cacheOp/getCache.do': {
+		data: 'getcache'
 	},
 	"/mqsas/otatime/getSucRateTrend.do": {
 		data: 'getSucRateTrend'

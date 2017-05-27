@@ -1,0 +1,59 @@
+{
+"status": 1,
+"data": [
+{
+"code": 1,
+"description": "",
+"name": "发热分析缓存",
+"type": 0
+},
+{
+"code": 2,
+"description": "",
+"name": "abtest缓存",
+"type": 0
+},
+{
+"code": 3,
+"description": "",
+"name": "带亮屏时间的卡顿时长缓存",
+"type": 0
+},
+{
+"code": 4,
+"description": "",
+"name": "平均卡顿缓存",
+"type": 0
+},
+{
+"code": 5,
+"description": "",
+"name": "卡顿分析缓存",
+"type": 0
+},
+{
+"code": 6,
+"description": "",
+"name": "卡顿相关因子分析缓存",
+"type": 0
+},
+{
+"code": 7,
+"description": "",
+"name": "国际版卡顿监控缓存",
+"type": 0
+},
+{
+"code": 8,
+"description": "",
+"name": "平均掉帧率缓存",
+"type": 0
+},
+{
+"code": 9,
+"description": "",
+"name": "掉帧率分位数缓存",
+"type": 0
+}
+]
+}
