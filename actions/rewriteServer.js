@@ -2,12 +2,12 @@ var fs = require('fs');
 var shell = require('shelljs');
 var colors = require('../conf/colors')
 
-let restart = 'echo lanshan123 | sudo -S nginx -s reload',
-	open = 'echo lanshan123 | sudo -S nginx'
+let restart = 'echo _12345679 | sudo -S nginx -s reload',
+	open = 'echo _12345679 | sudo -S nginx'
 
 let servers = [
 	{
-		listen: 80,
+		listen: 8081,
 		locations: [
 			{
 				path: '/',
@@ -22,9 +22,7 @@ let servers = [
 					linlin: 'http://10.232.33.21:8082',
 					mqsas: 'http://admin.sec.miui.com',
 					zhicai: 'http://10.232.32.7:8082',
-					anqi: 'http://10.232.39.18:8082',
-					dawei: 'http://10.232.33.44:8088',
-					yilan: 'http://10.232.33.33:8082'
+					anqi: 'http://10.232.39.18:8082'
 				}
 			}
 		]
@@ -51,13 +49,13 @@ server {
 		proxy_read_timeout 10000s;
 		proxy_pass ${proxy_pass};
 	}
-			` 
+			`
 		}).join(' ')
 	}
 }
 			`
 	}).join(' ')
-	
+
 }
 
 function exec(command='say hello') {
@@ -78,4 +76,3 @@ module.exports = function rewriteServer(req, res, next) {
 	});
 	return ;
 }
-
