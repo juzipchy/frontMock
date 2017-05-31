@@ -42,10 +42,54 @@ export default {
 			}
 		},
 		methods: {
-			createMock: function(){
-				console.log(this.type)
-				console.log(this.url)
-				console.log(this.data)
+			createMock: function() {
+				if(!this.url || !this.data) {
+					this.$message({
+			          message: '请填写完整',
+			          type: 'warning'
+			        });
+					return false;
+				}
+				let data;
+				try{
+					data = JSON.parse(this.data)
+				}catch(e) {
+					this.$message({
+						message: '请填写正确格式的数据',
+						type: 'warning'
+					})
+					return;
+				}
+
+				request.post('/action/createmock')
+					.type('json')
+					.send({
+						type: this.type,
+						url: this.url,
+						data})
+					.end((err, res)=>{
+						if(err) {
+							this.$message({
+								message: '创建失败！',
+								type: 'error'
+							})
+							return false;
+						}
+
+						if(res.body.status) {
+							this.$message({
+								message: '创建成功！',
+								type: 'success'
+							})
+						}else {
+							this.$message({
+								message: '创建失败！',
+								type: 'error'
+							})
+						}
+						
+					})
+
 			},
 			check: function(){
 				

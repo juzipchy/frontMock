@@ -13,7 +13,7 @@ server {
 	location  ~ ^/(mqsas|mqsasdata|mqsasABTest|knowledge|whiteList|mqsasback|test1|myDeviceClound)/ {
 		client_max_body_size    1000m;
 		proxy_read_timeout 10000s;
-		proxy_pass http://10.232.33.33:8082;
+		proxy_pass http://10.232.32.7:8082;
 	}
 			
 }

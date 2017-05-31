@@ -1,9 +1,21 @@
 const route = {
-	'/mock/get/test': 'test',
-	'/action/start': 'start',
-	'/action/rewriteServer': 'rewriteServer',
-	'/action/checkUrl': 'checkUrl',
-	'/action/createMock': 'createMock'
+	'/mock/get/test': {
+		type: 'GET',
+		data: 'test'
+	},
+	'/action/start': {
+		data: 'start'
+	},
+	'/action/rewriteServer': {
+		data: 'rewriteServer'
+	},
+	'/action/checkurl': {
+		data: 'checkUrl'
+	},
+	'/action/createmock': {
+		data: 'createmock',
+		type: 'POST'
+	}
 }
 
-module.exports =  route;
+module.exports = route;

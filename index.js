@@ -6,12 +6,14 @@ const Mock = require('mockjs'),
 	gets = require('./route/get'),
 	express = require('express'),
 	fs = require('fs'),
+	bodyParser = require('body-parser'),
 	cors = require('cors'),
 	actionRoutes = require('./route/actionroutes'),
 	query = require('./db/query'),
 	app = express();
 	
 	app.use('/public',express.static('dist'))
+	app.use(bodyParser.json({limit: '1mb'})) //解析post数据
 	app.use(cors())
 	// query({}, function(data=[]){
 	// 	data.map((item)=>{
@@ -36,12 +38,22 @@ const Mock = require('mockjs'),
 	// 	})
 	// });
 	_.map(actionRoutes, (value, name)=>{
-		app.get(name , function(req, res, next) {
-			const action = require('./actions/' + value)
-			action(req, res, next);
-        }, function(req, res, next){
-        	console.log(req, 'next')
-        });
+		if(value.type === 'POST' || value.type === 'post') {
+				app.post(name , function(req, res, next) {
+					const action = require('./actions/' + value.data)
+					action(req, res, next);
+		        }, function(req, res, next){
+		        	// console.log(req, 'next')
+		        });
+		}else {
+				app.get(name , function(req, res, next) {
+					const action = require('./actions/' + value.data)
+					action(req, res, next);
+		        }, function(req, res, next){
+		        	// console.log(req, 'next')
+		        });
+		}
+		
 	});
 	app.use(delay(1,1000))
 	_.each(posts, function (value, name) {
