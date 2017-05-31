@@ -1,0 +1,12 @@
+{
+  "plugins": [
+    ["transform-class-properties", "transform-object-rest-spread", "transform-decorators", { "spec": true }],
+    ["component", [
+        {
+          "libraryName": "element-ui",
+          "styleLibraryName": "theme-default"
+        }
+      ]]
+  ],
+  "presets": ["vue-app", "es2015", "es2017"]
+}

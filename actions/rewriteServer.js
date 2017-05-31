@@ -11,7 +11,7 @@ let servers = [
 		locations: [
 			{
 				path: '/',
-				proxy_pass: 'http://127.0.0.1:3000'
+				proxy_pass: 'http://10.232.33.48:80'
 			},{
 				path: '~ ^/(mqsas|mqsasdata|mqsasABTest|knowledge|whiteList|mqsasback|test1|myDeviceClound)/',
 				using: 'mqsas',//
@@ -22,7 +22,8 @@ let servers = [
 					linlin: 'http://10.232.33.21:8082',
 					mqsas: 'http://admin.sec.miui.com',
 					zhicai: 'http://10.232.32.7:8082',
-					anqi: 'http://10.232.39.18:8082'
+					anqi: 'http://10.232.39.18:8082',
+					liuyilan: 'http://10.232.33.33:8082'
 				}
 			}
 		]
