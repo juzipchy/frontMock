@@ -4,9 +4,9 @@ let observer = Rx.Observable.create(function (observer) {
 	let count = 1;
 	console.log(count)
 	setInterval(function(){
-		observer.next(++count)	
+		observer.next(++count)
 	},1000)
-	
+
 });
 
 let a = observer.subscribe(function(data){

@@ -3,8 +3,8 @@ const shell = require('shelljs');
 const path = require('path')
 const colors = require('../conf/colors')
 
-const getRoutes = require('../route/get')
-const postRoutes = require('../route/post')
+const getRoutes = require('../route/get.json')
+const postRoutes = require('../route/post.json')
 
 module.exports = function(req, res, next) {
 	let params = req.body;
@@ -37,7 +37,7 @@ function writeRoute(type = 'GET', url, routes = {}, data = {}, callback) {
 		data: name
 	};
 
-	fs.writeFile(path.join(__dirname, '../route/' + type === 'GET' ? 'get' : 'post' + '.json'), JSON.stringify(routes), (err, result) => {
+	fs.writeFile(path.join(__dirname, '../route/' + (type === 'GET' ? 'get' : 'post') + '.json'), JSON.stringify(routes), (err, result) => {
 		if (err) {
 			callback(err, result);
 			return;

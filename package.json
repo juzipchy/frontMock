@@ -8,12 +8,11 @@
     "mongodb": "^2.2.24",
     "nodemailer": "^4.0.0",
     "recharts": "^0.20.1",
+    "vue-json-tree-view": "^2.0.7",
     "webpack-md5-hash": "0.0.5"
   },
   "devDependencies": {
-<<<<<<< HEAD
     "colors": "^1.1.2",
-=======
     "babel-core": "^6.24.1",
     "babel-loader": "^7.0.0",
     "babel-plugin-component": "^0.9.1",
@@ -28,7 +27,6 @@
     "babel-preset-react": "^6.24.1",
     "babel-preset-vue-app": "^1.2.0",
     "body-parser": "^1.17.2",
->>>>>>> 5c8a861340f2ebee23a2cd8502c04d68a69e7536
     "cors": "^2.8.2",
     "css-loader": "^0.28.3",
     "express": "^4.14.1",
@@ -54,7 +52,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "supervisor index.js"
+    "start": "supervisor index.js",
+    "end": "supervisor -k index.js"
   },
   "author": "John",
   "license": "ISC"

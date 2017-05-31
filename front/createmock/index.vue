@@ -3,17 +3,19 @@
 		<h1 class="title">
 			创建mock数据
 		</h1>
-
+    <div>
+      <el-button type="primary" id="createBtn" v-on:click='createMock'>创建</el-button>
+    </div>
 		<div class='item'>
 			URL: <el-input type="text" id="url" v-model.trim="url" v-on:change="check"/>
 		</div>
-		
+
 		<div  class='item'>
-			type: 
+			type:
 			<el-select v-model="type"  placeholder="请选择">
 			    <el-option
 			      v-for="item in options"
-			      :key="item.value" 
+			      :key="item.value"
 			      :label="item.label"
 			      :value="item.value">
 			    </el-option>
@@ -21,15 +23,20 @@
 		 </div>
 
 		<div  class='item'>
-			data: <el-input type="textarea" id="url" v-model.trim="data" v-on:change="check"></el-input>
+			data: <el-input type="textarea" id="url" v-bind:autosize='true' v-model.trim="data" v-on:change="checkdata"></el-input>
  		</div>
-		<el-button type="primary" id="createBtn" v-on:click='createMock'>创建</el-button>
+    <div>
+      <tree-view :data="jsonSource" :options="{maxDepth: 3}"></tree-view>
+    </div>
+
 	</div>
 </template>
 
 <script>
+import Vue from 'vue'
 import request from 'superagent'
-
+import TreeView from "vue-json-tree-view"
+Vue.use(TreeView)
 export default {
 		name: 'create-mock',
 		data(){
@@ -41,6 +48,15 @@ export default {
 				data:''
 			}
 		},
+    computed: {
+        jsonSource(){
+          try {
+              return JSON.parse(this.data);
+          } catch (e) {
+              return JSON.parse('{}');
+          }
+        }
+    },
 		methods: {
 			createMock: function() {
 				if(!this.url || !this.data) {
@@ -87,13 +103,32 @@ export default {
 								type: 'error'
 							})
 						}
-						
+
 					})
 
 			},
 			check: function(){
-				
-			}
+        const {url, type} = this;
+
+        request(type, url)
+          .query({
+            url,
+            type
+          })
+          .end((err, res)=>{
+            if(err) return false;
+            if(res.body.status) {
+              this.$notify({
+                message: '该url已存在',
+                type: 'warning'
+              })
+              this.data = JSON.stringify(res.body);
+            }
+          })
+			},
+      checkdata: function() {
+
+      }
 		}
 	}
 </script>

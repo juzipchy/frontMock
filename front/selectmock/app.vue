@@ -6,7 +6,7 @@
     	当前选择服务器：{{current}}
     </div>
     <div class="buttons">
-		<el-button key='item.name'  v-for="item in names" @click.native="createMock(item.value)">{{item.name}}</el-button>
+		<el-button key='item.name' v-bind:type="item.name === current ? 'primary' : ''"  v-for="item in names" @click.native="createMock(item.value)">{{item.name}}</el-button>
 	</div>
 	<create-mock> </create-mock>
   </div>
@@ -31,7 +31,8 @@
 	    return {
 	      msg: 'mock 服务器选择',
 	      names,
-	      current: '还未选择'
+	      current: '还未选择',
+        selected: 'test'
 	    }
 	  },
 	  components: {
@@ -54,6 +55,11 @@
 	    				// $('.buttons button').removeClass('active')
 	    				// $(e.target).addClass('active');
 	    				this.current = this.names.filter(item=>item.value === name)[0].name;
+
+              this.$notify({
+                type:'success',
+                message: '修改成功！'
+              })
 	    			}else {
 	    				// this.who = who;
 	    				this.current = name;

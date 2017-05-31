@@ -7,17 +7,13 @@ server {
 	location  / {
 		client_max_body_size    1000m;
 		proxy_read_timeout 10000s;
-		proxy_pass http://10.232.33.48:80;
+		proxy_pass http://127.0.0.1:3000;
 	}
 			 
 	location  ~ ^/(mqsas|mqsasdata|mqsasABTest|knowledge|whiteList|mqsasback|test1|myDeviceClound)/ {
 		client_max_body_size    1000m;
 		proxy_read_timeout 10000s;
-<<<<<<< HEAD
-		proxy_pass http://admin.sec.miui.com;
-=======
-		proxy_pass http://10.232.32.7:8082;
->>>>>>> 5c8a861340f2ebee23a2cd8502c04d68a69e7536
+		proxy_pass http://127.0.0.1:3001;
 	}
 			
 }

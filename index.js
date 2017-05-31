@@ -1,9 +1,9 @@
 const Mock = require('mockjs'),
 	_ = require('lodash'),
 	delay = require('express-delay'),
-	posts = require('./route/post'),
+	posts = require('./route/post.json'),
 	http = require('http'),
-	gets = require('./route/get'),
+	gets = require('./route/get.json'),
 	express = require('express'),
 	fs = require('fs'),
 	bodyParser = require('body-parser'),
@@ -53,7 +53,7 @@ const Mock = require('mockjs'),
 		        	// console.log(req, 'next')
 		        });
 		}
-		
+
 	});
 	app.use(delay(1,1000))
 	_.each(posts, function (value, name) {
