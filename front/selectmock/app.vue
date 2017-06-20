@@ -24,6 +24,8 @@
 		{value:'linlin', name: '王林林'},
 		{value:'zhicai', name: '彭志才'},
 		{value:'liuyilan', name: '柳依岚'},
+		{value:'dawei', name: '蔡大伟'},
+		{value:'zhangyang', name: '张阳'},
 	]
 
 	export default {

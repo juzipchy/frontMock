@@ -15,6 +15,10 @@ const route = {
 	'/action/createmock': {
 		data: 'createmock',
 		type: 'POST'
+	},
+	'/action/collecterror': {
+		data: 'collecterror',
+		type: 'POST'
 	}
 }
 

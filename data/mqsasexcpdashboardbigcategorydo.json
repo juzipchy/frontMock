@@ -1,0 +1,1 @@
+{"data":{"indexs":["7.2.24","7.3.2"],"resources":[{"7.2.24":"0.10","name":"死机重启","7.2.24-attach":{"show":{"升级人数":0,"出现次数":22515},"conf":{"nextUrl":"/mqsas/excp/dashboard/category.do?bigCategory=restart","hasDetail":"true"}}}]},"status":"true"}

@@ -19,12 +19,12 @@ let servers = [
 					zhangyang: 'http://10.232.39.9:8082',
 					liuxiwen: 'http://10.232.33.9:8082',
 					localhost: 'http://127.0.0.1:3001',
-					linlin: 'http://10.232.33.21:8082',
+					linlin: 'http://10.232.33.23:8082',
 					mqsas: 'http://admin.sec.miui.com',
 					zhicai: 'http://10.232.32.7:8082',
 					anqi: 'http://10.232.39.18:8082',
 					dawei: 'http://10.232.33.44:8088',
-					yilan: 'http://10.232.33.33:8082'
+					liuyilan: 'http://10.232.33.8:8082'
 				}
 			}
 		]
@@ -51,13 +51,13 @@ server {
 		proxy_read_timeout 10000s;
 		proxy_pass ${proxy_pass};
 	}
-			` 
+			`
 		}).join(' ')
 	}
 }
 			`
 	}).join(' ')
-	
+
 }
 
 function exec(command='say hello') {
@@ -78,4 +78,3 @@ module.exports = function rewriteServer(req, res, next) {
 	});
 	return ;
 }
-

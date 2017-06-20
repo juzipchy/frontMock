@@ -14,7 +14,8 @@ module.exports = function(req, res, next) {
 		type
 	} = params;
 
-	writeRoute(type, url, postRoutes, data, (err, result) => {
+	let routes = type === 'GET' ? getRoutes: postRoutes;
+	writeRoute(type, url, routes, data, (err, result) => {
 		if(err) {
 			res.send({
 				status: false,

@@ -117,7 +117,7 @@ export default {
           })
           .end((err, res)=>{
             if(err) return false;
-            if(res.body.status) {
+            if(res.body) {
               this.$notify({
                 message: '该url已存在',
                 type: 'warning'
