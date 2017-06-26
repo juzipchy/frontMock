@@ -20,7 +20,7 @@ let servers = [
 					liuxiwen: 'http://10.232.33.9:8082',
 					localhost: 'http://127.0.0.1:3001',
 					linlin: 'http://10.232.33.23:8082',
-					mqsas: 'http://admin.sec.miui.com',
+					mqsas: 'http://sys.pt.miui.com',
 					zhicai: 'http://10.232.32.7:8082',
 					anqi: 'http://10.232.39.18:8082',
 					dawei: 'http://10.232.33.44:8088',

@@ -56,7 +56,7 @@ const Mock = require('mockjs'),
 		}
 
 	});
-	app.use(delay(1,1000))
+	// app.use(delay(1,1000))
 	_.each(posts, function (value, name) {
 	    app.post(name , function(req, res) {
 	    	let dataFormatted = JSON.parse(fs.readFileSync(`./data/${value.data}.json`));
