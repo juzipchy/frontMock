@@ -10,7 +10,8 @@ const Mock = require('mockjs'),
 	cors = require('cors'),
 	actionRoutes = require('./route/actionroutes'),
 	query = require('./db/query'),
-	app = express();
+	app = express(),
+	expressWs = require('express-ws')(app)
 
 	app.use('/public',express.static('dist'))
 	app.use(bodyParser.json({limit: '1mb'})) //解析post数据
@@ -55,7 +56,7 @@ const Mock = require('mockjs'),
 		}
 
 	});
-	app.use(delay(1,1000))
+	// app.use(delay(1,1000))
 	_.each(posts, function (value, name) {
 	    app.post(name , function(req, res) {
 	    	let dataFormatted = JSON.parse(fs.readFileSync(`./data/${value.data}.json`));
@@ -87,7 +88,14 @@ const Mock = require('mockjs'),
 	    });
 	});
 
-
+	app.ws('/mqsas/test2', function(ws, req) {
+	  ws.on('message', function(msg) {
+	    console.log(msg);
+	  });
+		setInterval(function timeout() {
+	    // ws.send('xiong---');
+	  }, 500);
+	});
 
 // app.use(router)
 app.listen(3001, function (err, result){
